@@ -7,56 +7,56 @@ $quinary-color: #F2F1ED; //Hvid
 * {
     box-sizing: border-box;
     font-family: "Segoe UI", Arial, sans-serif;
-  }
-  * h  body {
-    text-align: center;
-  }
+}
+* h  body {
+  text-align: center;
+}
+
+header {
+  background-color: $primary-color;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: $quinary-color;
+}
   
-  header {
-    background-color: $primary-color;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: $quinary-color;
-  }
+nav {
+  background-color: $quarternary-color;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 25%;
+      ul {
+          list-style-type: none;
+          padding: 5px;
+          margin-top: 10px;
+          li {
+              padding: 2%;
+              a {
+                  padding: 6px 8px 6px 16px;
+                  text-decoration: none;
+                  font-size: 23px;
+                  color: $primary-color;
+                  display: block;
+              }
+          }
+      }
+}
   
-  nav {
-    background-color: $quarternary-color;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    height: 100%;
-    width: 25%;
-        ul {
-            list-style-type: none;
-            padding: 5px;
-            margin-top: 10px;
-            li {
-               padding: 2%;
-                a {
-                    padding: 6px 8px 6px 16px;
-                    text-decoration: none;
-                    font-size: 23px;
-                    color: $primary-color;
-                    display: block;
-                }
-            }
-        }
-  }
-  
-  article {
-    margin-left: 28%; /* Same as the width of the sidenav */
-    font-size: 18px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-  
-  section::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+article {
+  margin-left: 28%; /* Same as the width of the sidenav */
+  font-size: 18px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 #Farver {
   display: flex;
@@ -68,22 +68,32 @@ $quinary-color: #F2F1ED; //Hvid
     flex-direction: row;
     flex-wrap: wrap;
     .dark-grey {
+      margin: 3px;
+      padding: 3px;
       background-color: $tertiary-color;
       color: $quinary-color;
     }
     .cyan {
+      margin: 3px;
+      padding: 3px;
       background-color: $secondary-color;
       color: $quinary-color;
     }
     .grey-yellow {
+      margin: 3px;
+      padding: 3px;
       background-color: $quinary-color;
       color: $tertiary-color;
     }
     .light-grey {
+      margin: 3px;
+      padding: 3px;
       background-color: $quarternary-color;
       color: $tertiary-color;
     }
     .blue {
+      margin: 3px;
+      padding: 3px;
       background-color: $primary-color;
       color: $quinary-color;
     }

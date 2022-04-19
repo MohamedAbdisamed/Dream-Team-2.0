@@ -56,18 +56,28 @@ section::after {
     flex-direction: row;
     flex-wrap: wrap; }
     #Farver .color-palette .dark-grey {
+      margin: 3px;
+      padding: 3px;
       background-color: #353535;
       color: #F2F1ED; }
     #Farver .color-palette .cyan {
+      margin: 3px;
+      padding: 3px;
       background-color: #3C6E71;
       color: #F2F1ED; }
     #Farver .color-palette .grey-yellow {
+      margin: 3px;
+      padding: 3px;
       background-color: #F2F1ED;
       color: #353535; }
     #Farver .color-palette .light-grey {
+      margin: 3px;
+      padding: 3px;
       background-color: #D9D9D9;
       color: #353535; }
     #Farver .color-palette .blue {
+      margin: 3px;
+      padding: 3px;
       background-color: #00454E;
       color: #F2F1ED; }
 
