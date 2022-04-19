@@ -7,6 +7,9 @@ $quinary-color: #F2F1ED; //Hvid
 * {
     box-sizing: border-box;
     font-family: "Segoe UI", Arial, sans-serif;
+    p {
+      font-size: 15px;
+    }
 }
 * h  body {
   text-align: center;
@@ -98,4 +101,61 @@ section::after {
       color: $quinary-color;
     }
   }
+}
+
+button {
+  width: 25vmin;
+  height: 8vmin;
+}
+//Afrrundede knapper
+.rund-button-1 {
+  border-radius: 25px;
+  background-color: $primary-color;
+  color: $quinary-color;
+}
+.rund-button-2 {
+  border-radius: 25px;
+  background-color: $secondary-color;
+  color: $quinary-color;
+}
+.rund-button-3 {
+  border-radius: 25px;
+  background-color: $tertiary-color;
+  color: $quinary-color;
+}
+.rund-button-4 {
+  border-radius: 25px;
+  background-color: $quarternary-color;
+  color: $tertiary-color;
+}
+.rund-button-5 {
+  border-radius: 25px;
+  background-color: $quinary-color;
+  color: $tertiary-color;
+}
+// Kantede knapper
+.kant-button-1 {
+  border-radius: 5px;
+  background-color: $primary-color;
+  color: $quinary-color;
+}
+.kant-button-2 {
+  border-radius: 5px;
+  background-color: $secondary-color;
+  color: $quinary-color;
+}
+.kant-button-3 {
+  border-radius: 5px;
+  background-color: $tertiary-color;
+  color: $quinary-color;
+}
+.kant-button-4 {
+  border-radius: 5px;
+  background-color: $quarternary-color;
+  color: $tertiary-color;
+}
+.kant-button-5 {
+  border-radius: 5px;
+  background-color: $quinary-color;
+  color: $tertiary-color;
 }
