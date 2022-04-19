@@ -57,3 +57,35 @@ $quinary-color: #F2F1ED; //Hvid
     display: table;
     clear: both;
   }
+
+#Farver {
+  display: flex;
+  flex-direction: column;
+  .color-palette {
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .dark-grey {
+      background-color: $tertiary-color;
+      color: $quinary-color;
+    }
+    .cyan {
+      background-color: $secondary-color;
+      color: $quinary-color;
+    }
+    .grey-yellow {
+      background-color: $quinary-color;
+      color: $tertiary-color;
+    }
+    .light-grey {
+      background-color: $quarternary-color;
+      color: $tertiary-color;
+    }
+    .blue {
+      background-color: $primary-color;
+      color: $quinary-color;
+    }
+  }
+}

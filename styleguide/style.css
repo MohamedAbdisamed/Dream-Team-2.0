@@ -46,4 +46,29 @@ section::after {
   display: table;
   clear: both; }
 
+#Farver {
+  display: flex;
+  flex-direction: column; }
+  #Farver .color-palette {
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    #Farver .color-palette .dark-grey {
+      background-color: #353535;
+      color: #F2F1ED; }
+    #Farver .color-palette .cyan {
+      background-color: #3C6E71;
+      color: #F2F1ED; }
+    #Farver .color-palette .grey-yellow {
+      background-color: #F2F1ED;
+      color: #353535; }
+    #Farver .color-palette .light-grey {
+      background-color: #D9D9D9;
+      color: #353535; }
+    #Farver .color-palette .blue {
+      background-color: #00454E;
+      color: #F2F1ED; }
+
 /*# sourceMappingURL=style.css.map */
