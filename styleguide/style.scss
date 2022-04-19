@@ -6,9 +6,15 @@ $quinary-color: #F2F1ED; //Hvid
 
 * {
     box-sizing: border-box;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     p {
       font-size: 15px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 30px;
     }
 }
 * h  body {
@@ -158,4 +164,19 @@ button {
   border-radius: 5px;
   background-color: $quinary-color;
   color: $tertiary-color;
+}
+
+#Typografi {
+  display: flex;
+  flex-direction: column;
+  .font-type {
+    margin: 5px;
+    padding: 5px;
+    .header-tekst p {
+      font-size: 40px;
+    }
+    .sub-tekst p {
+      font-size: 30px;
+    }
+  }
 }
