@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Home_Icon" data-name="Home Icon" transform="translate(-872 -1328)">
+    <g id="Ellipse_21" data-name="Ellipse 21" transform="translate(872 1328)" fill="#f2f1ed" stroke="#f2f1ed" stroke-width="2">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14" fill="none"/>
+    </g>
+    <g id="Page-1" transform="translate(878.667 1332.667)">
+      <g id="Dribbble-Light-Preview" transform="translate(0 0)">
+        <g id="icons" transform="translate(0 0)">
+          <path id="home-_1393_" data-name="home-[#1393]" d="M299.706,576.028c0,.546-.471.779-1.05.779h-1.051c-.579,0-1.05-.233-1.05-.779v-.989a2.222,2.222,0,0,0-2.1-2.187h-2.1a2.221,2.221,0,0,0-2.1,2.187v.989c0,.546-.472.779-1.051.779h-1.05c-.58,0-1.051-.233-1.051-.779v-7.971a.483.483,0,0,1,.153-.35l5.4-5.078a1.1,1.1,0,0,1,1.486,0l5.417,5.1a.482.482,0,0,1,.153.349Zm2.1-8.49a.965.965,0,0,0-.305-.7l-6.617-6.258a2.2,2.2,0,0,0-2.973-.006l-6.6,6.194a.963.963,0,0,0-.308.7v9.546a1.881,1.881,0,0,0,2.1,1.768h3.152a1.881,1.881,0,0,0,2.1-1.768v-.989a1.052,1.052,0,0,1,2.1,0v.989a1.881,1.881,0,0,0,2.1,1.768h3.151a1.881,1.881,0,0,0,2.1-1.768Z" transform="translate(-285 -560)" fill="#1b3243" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

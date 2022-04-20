@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Burger_menu_icon" data-name="Burger menu icon" transform="translate(-490 -155)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(490 155)" fill="none" stroke="#f2f1ed" stroke-width="2">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14" fill="none"/>
+    </g>
+    <path id="_Icon-Color" data-name="🔹Icon-Color" d="M3.958,15.554H19.281a1.06,1.06,0,0,0,0-2.111H3.958a1.06,1.06,0,0,0,0,2.111Zm0,4.222H19.281a1.06,1.06,0,0,0,0-2.111H3.958a1.06,1.06,0,0,0,0,2.111Zm0-8.443H19.281a1.06,1.06,0,0,0,0-2.111H3.958a1.06,1.06,0,0,0,0,2.111ZM3,6.055a1.013,1.013,0,0,0,.958,1.055H19.281a1.013,1.013,0,0,0,.958-1.055A1.013,1.013,0,0,0,19.281,5H3.958A1.013,1.013,0,0,0,3,6.055Z" transform="translate(493.156 157.388)" fill="#f2f1ed" fill-rule="evenodd"/>
+  </g>
+</svg>
