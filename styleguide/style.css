@@ -87,6 +87,20 @@ section::after {
       background-color: #00454E;
       color: #F2F1ED; }
 
+.ikon-palette {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #3C6E71;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 3px; }
+  .ikon-palette img {
+    width: 15vmin;
+    height: 15vmin;
+    padding: 3px;
+    margin: 3px; }
+
 button {
   width: 25vmin;
   height: 8vmin; }

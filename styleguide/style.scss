@@ -109,6 +109,22 @@ section::after {
   }
 }
 
+.ikon-palette {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: $secondary-color;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 3px;
+  img {
+    width: 15vmin;
+    height: 15vmin;
+    padding: 3px;
+    margin: 3px;
+  }
+}
+
 button {
   width: 25vmin;
   height: 8vmin;
