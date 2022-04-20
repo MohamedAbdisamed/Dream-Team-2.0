@@ -91,7 +91,7 @@ section::after {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #3C6E71;
+  background-color: #B8B5B5;
   border-radius: 10px;
   padding: 3px;
   margin: 3px; }
