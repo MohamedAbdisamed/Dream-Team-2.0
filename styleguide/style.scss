@@ -309,3 +309,40 @@ button {
     }
   }
 }
+
+form {
+  width: 50vmin;
+  height: 50vmin;
+  background-color: $quarternary-color;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px;
+  #form-bred {
+    width: 48vmin;
+    height: 6vmin;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 6px;
+  }
+  #form-kort {
+    width: 23vmin;
+    height: 6vmin;
+    margin: 3px ;
+    padding: 4px;
+    border-radius: 6px;
+  }
+  #form-kort-venstre {
+    margin-left: 1.5px;
+  }
+  #opret {
+    width: 10vmin;
+    height: 6vmin;
+    margin: 5px;
+    padding: 5px;
+    background-color: $tertiary-color;
+    border: 2px solid $tertiary-color;
+    border-radius: 6px;
+    color: $quinary-color;
+  }
+}

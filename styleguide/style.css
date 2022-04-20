@@ -266,4 +266,36 @@ button {
     #Typografi .font-type .sub-tekst p {
       font-size: 30px; }
 
+form {
+  width: 50vmin;
+  height: 50vmin;
+  background-color: #D9D9D9;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px; }
+  form #form-bred {
+    width: 48vmin;
+    height: 6vmin;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 6px; }
+  form #form-kort {
+    width: 23vmin;
+    height: 6vmin;
+    margin: 3px;
+    padding: 4px;
+    border-radius: 6px; }
+  form #form-kort-venstre {
+    margin-left: 1.5px; }
+  form #opret {
+    width: 10vmin;
+    height: 6vmin;
+    margin: 5px;
+    padding: 5px;
+    background-color: #353535;
+    border: 2px solid #353535;
+    border-radius: 6px;
+    color: #F2F1ED; }
+
 /*# sourceMappingURL=style.css.map */
