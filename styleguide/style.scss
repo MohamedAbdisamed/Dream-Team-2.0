@@ -112,6 +112,7 @@ section::after {
 button {
   width: 25vmin;
   height: 8vmin;
+}
 //Afrrundede knapper
   .rund-button-1 {
     border-radius: 25px;
@@ -164,7 +165,6 @@ button {
     background-color: $quinary-color;
     color: $tertiary-color;
   }
-}
 
 .rund-bokse {
   display: flex;
