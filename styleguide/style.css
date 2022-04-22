@@ -287,7 +287,11 @@ form {
     padding: 4px;
     border-radius: 6px; }
   form #form-kort-venstre {
-    margin-left: 1.5px; }
+    width: 23vmin;
+    height: 6vmin;
+    margin: 3px;
+    padding-left: 4px;
+    border-radius: 6px; }
   form #opret {
     width: 10vmin;
     height: 6vmin;

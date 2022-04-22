@@ -333,7 +333,11 @@ form {
     border-radius: 6px;
   }
   #form-kort-venstre {
-    margin-left: 1.5px;
+    width: 23vmin;
+    height: 6vmin;
+    margin: 3px;
+    padding-left: 4px;
+    border-radius: 6px;
   }
   #opret {
     width: 10vmin;
@@ -346,3 +350,5 @@ form {
     color: $quinary-color;
   }
 }
+
+
