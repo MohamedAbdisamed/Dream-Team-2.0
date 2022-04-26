@@ -180,54 +180,64 @@ button {
 //Afrrundede knapper
   .rund-button-1 {
     border-radius: 25px;
+    border: 3px solid $primary-border;
     background-color: $primary-color;
-    color: $quinary-color;
+    color: $secondary-color;
   }
   .rund-button-2 {
     border-radius: 25px;
+    border: 3px solid $secondary-border;
     background-color: $secondary-color;
-    color: $quinary-color;
+    color: $quarternary-color;
   }
   .rund-button-3 {
     border-radius: 25px;
+    border: 3px solid $tertiary-border;
     background-color: $tertiary-color;
-    color: $quinary-color;
+    color: $quarternary-color;
   }
   .rund-button-4 {
     border-radius: 25px;
+    border: 3px solid $quarternary-border;
     background-color: $quarternary-color;
-    color: $tertiary-color;
+    color: $secondary-color;
   }
   .rund-button-5 {
     border-radius: 25px;
+    border: 3px solid $quinary-border;
     background-color: $quinary-color;
-    color: $tertiary-color;
+    color: $secondary-color;
   }
   // Kantede knapper
   .kant-button-1 {
     border-radius: 5px;
+    border: 3px solid $primary-border;
     background-color: $primary-color;
-    color: $quinary-color;
+    color: $secondary-color;
   }
   .kant-button-2 {
     border-radius: 5px;
+    border: 3px solid $secondary-border;
     background-color: $secondary-color;
-    color: $quinary-color;
+    color: $quarternary-color;
   }
   .kant-button-3 {
     border-radius: 5px;
+    border: 3px solid $tertiary-border;
     background-color: $tertiary-color;
-    color: $quinary-color;
+    color: $quarternary-color;
   }
   .kant-button-4 {
     border-radius: 5px;
+    border: 3px solid $quarternary-border;
     background-color: $quarternary-color;
-    color: $tertiary-color;
+    color: $secondary-color;
   }
   .kant-button-5 {
     border-radius: 5px;
+    border: 3px solid $quinary-border;
     background-color: $quinary-color;
-    color: $tertiary-color;
+    color: $secondary-color;
   }
 
 .rund-bokse {

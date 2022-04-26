@@ -145,53 +145,63 @@ button {
 
 .rund-button-1 {
   border-radius: 25px;
+  border: 3px solid #628A5F;
   background-color: #8CC588;
-  color: #E781B0; }
+  color: #F2F1ED; }
 
 .rund-button-2 {
   border-radius: 25px;
+  border: 3px solid #D8D7D4;
   background-color: #F2F1ED;
-  color: #E781B0; }
+  color: #353535; }
 
 .rund-button-3 {
   border-radius: 25px;
+  border: 3px solid #B8B5B5;
   background-color: #D9D9D9;
-  color: #E781B0; }
+  color: #353535; }
 
 .rund-button-4 {
   border-radius: 25px;
+  border: 3px solid #0F0E0E;
   background-color: #353535;
-  color: #D9D9D9; }
+  color: #F2F1ED; }
 
 .rund-button-5 {
   border-radius: 25px;
+  border: 3px solid #B9678D;
   background-color: #E781B0;
-  color: #D9D9D9; }
+  color: #F2F1ED; }
 
 .kant-button-1 {
   border-radius: 5px;
+  border: 3px solid #628A5F;
   background-color: #8CC588;
-  color: #E781B0; }
+  color: #F2F1ED; }
 
 .kant-button-2 {
   border-radius: 5px;
+  border: 3px solid #D8D7D4;
   background-color: #F2F1ED;
-  color: #E781B0; }
+  color: #353535; }
 
 .kant-button-3 {
   border-radius: 5px;
+  border: 3px solid #B8B5B5;
   background-color: #D9D9D9;
-  color: #E781B0; }
+  color: #353535; }
 
 .kant-button-4 {
   border-radius: 5px;
+  border: 3px solid #0F0E0E;
   background-color: #353535;
-  color: #D9D9D9; }
+  color: #F2F1ED; }
 
 .kant-button-5 {
   border-radius: 5px;
+  border: 3px solid #B9678D;
   background-color: #E781B0;
-  color: #D9D9D9; }
+  color: #F2F1ED; }
 
 .rund-bokse {
   display: flex;
