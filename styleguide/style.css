@@ -66,27 +66,37 @@ section::after {
       margin: 3px;
       padding: 3px;
       background-color: #8CC588;
-      color: #F2F1ED; }
+      color: #F2F1ED;
+      border: 5px solid #628A5F;
+      border-radius: 10px; }
     #Farver .color-palette .sekundær {
       margin: 3px;
       padding: 3px;
       background-color: #F2F1ED;
-      color: #353535; }
+      color: #353535;
+      border: 5px solid #D8D7D4;
+      border-radius: 10px; }
     #Farver .color-palette .tertiær {
       margin: 3px;
       padding: 3px;
       background-color: #D9D9D9;
-      color: #353535; }
+      color: #353535;
+      border: 5px solid #B8B5B5;
+      border-radius: 10px; }
     #Farver .color-palette .kontrast-1 {
       margin: 3px;
       padding: 3px;
       background-color: #353535;
-      color: #F2F1ED; }
+      color: #F2F1ED;
+      border: 5px solid #0F0E0E;
+      border-radius: 10px; }
     #Farver .color-palette .kontrast-2 {
       margin: 3px;
       padding: 3px;
       background-color: #E781B0;
-      color: #F2F1ED; }
+      color: #F2F1ED;
+      border: 5px solid #B9678D;
+      border-radius: 10px; }
 
 .ikon-palette {
   display: flex;

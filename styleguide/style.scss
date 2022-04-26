@@ -1,8 +1,13 @@
 $primary-color: #8CC588; //Grøn
+$primary-border: #628A5F; // Grøn border
 $secondary-color: #F2F1ED; //Hvid m. gul tint.
+$secondary-border: #D8D7D4; //Hvid border
 $tertiary-color: #D9D9D9; //Lys Grå
+$tertiary-border: #B8B5B5; //Lys grå border
 $quarternary-color: #353535; // Lys Sort, Kul
+$quarternary-border: #0F0E0E; //Lys Sort border
 $quinary-color: #E781B0; //Pink
+$quinary-border: #B9678D; //Pink border
 
 * {
     box-sizing: border-box;
@@ -81,30 +86,40 @@ section::after {
       padding: 3px;
       background-color: $primary-color;
       color: $secondary-color;
+      border: 5px solid $primary-border;
+      border-radius: 10px;
     }
     .sekundær{
       margin: 3px;
       padding: 3px;
       background-color: $secondary-color;
       color: $quarternary-color;
+      border: 5px solid $secondary-border;
+      border-radius: 10px;
     }
     .tertiær {
       margin: 3px;
       padding: 3px;
       background-color: $tertiary-color;
       color: $quarternary-color;
+      border: 5px solid $tertiary-border;
+      border-radius: 10px;
     }
     .kontrast-1 {
       margin: 3px;
       padding: 3px;
       background-color: $quarternary-color;
       color: $secondary-color;
+      border: 5px solid $quarternary-border;
+      border-radius: 10px;
     }
     .kontrast-2 {
       margin: 3px;
       padding: 3px;
       background-color: $quinary-color;
       color: $secondary-color;
+      border: 5px solid $quinary-border;
+      border-radius: 10px;
     }
   }
 }
