@@ -371,7 +371,7 @@ button {
 form {
   width: 50vmin;
   height: 50vmin;
-  background-color: $quarternary-color;
+  background-color: $primary-border;
   margin: 5px;
   padding: 5px;
   text-align: center;
@@ -389,6 +389,7 @@ form {
     margin: 3px ;
     padding: 4px;
     border-radius: 6px;
+    color: $primary-border;
   }
   #form-kort-venstre {
     width: 23vmin;
@@ -396,16 +397,17 @@ form {
     margin: 3px;
     padding-left: 4px;
     border-radius: 6px;
+    color: $primary-border;
   }
   #opret {
     width: 10vmin;
     height: 6vmin;
     margin: 5px;
     padding: 5px;
-    background-color: $tertiary-color;
-    border: 2px solid $tertiary-color;
+    background-color: $primary-color;
+    border: 2px solid $secondary-color;
     border-radius: 6px;
-    color: $quinary-color;
+    color: $secondary-color
   }
 }
 
