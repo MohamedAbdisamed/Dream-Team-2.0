@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Setting_icon_-_hvid" data-name="Setting icon - hvid" transform="translate(0 0)">
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(0 0)" fill="none" stroke="#f2f1ed" stroke-width="2">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14" fill="none"/>
+    </g>
+    <g id="_16945449851552644365" data-name="16945449851552644365" transform="translate(6.094 6.394)">
+      <ellipse id="XMLID_224_" cx="2.907" cy="2.907" rx="2.907" ry="2.907" transform="translate(5.805 5.805)" fill="none" stroke="#f2f1ed" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="XMLID_242_" d="M21.2,7.936l-.724-1.161A1.514,1.514,0,0,0,18.5,6.285l-.381.2a2.178,2.178,0,0,1-3.26-1.741V4.34A1.4,1.4,0,0,0,13.409,3H11.961a1.4,1.4,0,0,0-1.449,1.34v.407a2.178,2.178,0,0,1-3.26,1.741l-.381-.2a1.514,1.514,0,0,0-1.979.491L4.168,7.936A1.287,1.287,0,0,0,4.7,9.767l.381.2a1.938,1.938,0,0,1,0,3.482l-.381.2a1.287,1.287,0,0,0-.53,1.831l.724,1.161a1.514,1.514,0,0,0,1.979.491l.381-.2a2.178,2.178,0,0,1,3.26,1.741v.407a1.4,1.4,0,0,0,1.449,1.34h1.449a1.4,1.4,0,0,0,1.449-1.34v-.407a2.178,2.178,0,0,1,3.26-1.741l.381.2a1.514,1.514,0,0,0,1.979-.491l.724-1.161a1.287,1.287,0,0,0-.53-1.831l-.381-.2a1.938,1.938,0,0,1,0-3.482l.381-.2A1.286,1.286,0,0,0,21.2,7.936Z" transform="translate(-3.974 -3)" fill="none" stroke="#f2f1ed" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

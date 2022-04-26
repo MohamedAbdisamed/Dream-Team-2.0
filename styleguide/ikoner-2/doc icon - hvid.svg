@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="doc_icon_-_hvid" data-name="doc icon - hvid" transform="translate(-1015 -902)">
+    <g id="_706955771543238882" data-name="706955771543238882" transform="translate(1023.333 908.667)">
+      <path id="Path_44" data-name="Path 44" d="M12.125,2h-6.5A1.625,1.625,0,0,0,4,3.625v13a1.625,1.625,0,0,0,1.625,1.625h9.751A1.625,1.625,0,0,0,17,16.626V6.875Z" transform="translate(-4 -2)" fill="none" stroke="#f2f1ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_45" data-name="Path 45" d="M14,2V6.875h4.875" transform="translate(-5.875 -2)" fill="none" stroke="#f2f1ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_52" data-name="Line 52" x1="6.439" transform="translate(3.373 8.892)" fill="none" stroke="#f2f1ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_53" data-name="Line 53" x1="6.439" transform="translate(3.373 12.265)" fill="none" stroke="#f2f1ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_46" data-name="Path 46" d="M9.625,9H8" transform="translate(-4.75 -3.312)" fill="none" stroke="#f2f1ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Ellipse_42" data-name="Ellipse 42" transform="translate(1015 902)" fill="none" stroke="#f2f1ed" stroke-width="2">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14" fill="none"/>
+    </g>
+  </g>
+</svg>

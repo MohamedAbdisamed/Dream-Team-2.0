@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Calender_icon_2" data-name="Calender icon 2" transform="translate(0 0)">
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(0 0)" fill="none" stroke="#628a5f" stroke-width="4">
+      <circle cx="27" cy="27" r="27" stroke="none"/>
+      <circle cx="27" cy="27" r="25" fill="none"/>
+    </g>
+    <g id="Icons" transform="translate(11.248 11.748)">
+      <g id="Outlined" transform="translate(0)">
+        <g id="Action">
+          <g id="Outlined-_-Action-_-calendar_today" data-name="Outlined-/-Action-/-calendar_today">
+            <g id="Group_57" data-name="Group 57">
+              <path id="Path" d="M0,0H30.977V30.977H0Z" fill="none" fill-rule="evenodd"/>
+              <path id="_-Icon-Color" data-name="🔹-Icon-Color" d="M29.879,3.816H28.33V1h-3.1V3.816H9.744V1h-3.1V3.816H5.1A2.976,2.976,0,0,0,2,6.632V29.161a2.976,2.976,0,0,0,3.1,2.816H29.879a2.976,2.976,0,0,0,3.1-2.816V6.632A2.976,2.976,0,0,0,29.879,3.816Zm0,25.345H5.1V13.672H29.879Zm0-18.3H5.1V6.632H29.879Z" transform="translate(-2 -1)" fill="#628a5f" stroke="#628a5f" stroke-width="1" fill-rule="evenodd"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

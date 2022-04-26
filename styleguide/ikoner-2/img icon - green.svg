@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="img_icon_-_green" data-name="img icon - green" transform="translate(-1148 -911)">
+    <g id="_72109600716313443204150" data-name="72109600716313443204150" transform="translate(1161 924)">
+      <path id="Path_42" data-name="Path 42" d="M28.8,2.5H5.2A2.708,2.708,0,0,0,2.5,5.2V28.8a2.708,2.708,0,0,0,2.7,2.7H28.8a2.708,2.708,0,0,0,2.7-2.7V5.2a2.708,2.708,0,0,0-2.7-2.7ZM5.2,3.975H28.8A1.229,1.229,0,0,1,30.025,5.2V24.289L23.881,18.14a.736.736,0,0,0-1.042,0l-4.07,4.075L11.549,15a.732.732,0,0,0-1.042,0L3.975,21.532V5.2A1.229,1.229,0,0,1,5.2,3.975ZM3.975,28.8V23.616l7.053-7.053L24.491,30.025H5.2A1.229,1.229,0,0,1,3.975,28.8ZM28.8,30.025H26.575l-6.768-6.768L23.355,19.7l6.67,6.67V28.8A1.229,1.229,0,0,1,28.8,30.025Z" transform="translate(-2.5 -2.5)" fill="#628a5f" stroke="#628a5f" stroke-width="1"/>
+      <path id="Path_43" data-name="Path 43" d="M29.479,17.418a3.554,3.554,0,1,0-2.508-1.041,3.549,3.549,0,0,0,2.508,1.041Zm0-5.623a2.074,2.074,0,1,1-.794.158,2.074,2.074,0,0,1,.794-.158Z" transform="translate(-14.414 -6.476)" fill="#628a5f" stroke="#628a5f" stroke-width="1"/>
+    </g>
+    <g id="Ellipse_43" data-name="Ellipse 43" transform="translate(1148 911)" fill="none" stroke="#628a5f" stroke-width="4">
+      <circle cx="27" cy="27" r="27" stroke="none"/>
+      <circle cx="27" cy="27" r="25" fill="none"/>
+    </g>
+  </g>
+</svg>
