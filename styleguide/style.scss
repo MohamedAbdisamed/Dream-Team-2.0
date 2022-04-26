@@ -111,17 +111,50 @@ section::after {
 
 .ikon-palette {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: $secondary-color;
   border-radius: 10px;
   padding: 3px;
   margin: 3px;
+  .icon-active {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .icon-cirkel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .icon-passive {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .icon-billed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .icon-andre {
+    background-color: $quarternary-color;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   img {
     width: 15vmin;
     height: 15vmin;
     padding: 3px;
     margin: 3px;
+  }
+  .big-icon {
+    width: 20vmin; 
+    height: 15vmin;
   }
 }
 

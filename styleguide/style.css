@@ -90,17 +90,44 @@ section::after {
 
 .ikon-palette {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: #F2F1ED;
   border-radius: 10px;
   padding: 3px;
   margin: 3px; }
+  .ikon-palette .icon-active {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .ikon-palette .icon-cirkel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .ikon-palette .icon-passive {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .ikon-palette .icon-billed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .ikon-palette .icon-andre {
+    background-color: #353535;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
   .ikon-palette img {
     width: 15vmin;
     height: 15vmin;
     padding: 3px;
     margin: 3px; }
+  .ikon-palette .big-icon {
+    width: 20vmin;
+    height: 15vmin; }
 
 button {
   width: 25vmin;
