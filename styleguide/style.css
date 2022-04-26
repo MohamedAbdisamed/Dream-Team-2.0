@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   font-family: Verdana, sans-serif; }
@@ -12,7 +13,7 @@
   text-align: center; }
 
 header {
-  background-color: #00454E;
+  background-color: #8CC588;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -37,7 +38,7 @@ nav {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 23px;
-        color: #00454E;
+        color: #353535;
         display: block; }
 
 article {
@@ -61,37 +62,37 @@ section::after {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
-    #Farver .color-palette .dark-grey {
+    #Farver .color-palette .primær {
       margin: 3px;
       padding: 3px;
-      background-color: #353535;
+      background-color: #8CC588;
       color: #F2F1ED; }
-    #Farver .color-palette .cyan {
-      margin: 3px;
-      padding: 3px;
-      background-color: #3C6E71;
-      color: #F2F1ED; }
-    #Farver .color-palette .grey-yellow {
+    #Farver .color-palette .sekundær {
       margin: 3px;
       padding: 3px;
       background-color: #F2F1ED;
       color: #353535; }
-    #Farver .color-palette .light-grey {
+    #Farver .color-palette .tertiær {
       margin: 3px;
       padding: 3px;
       background-color: #D9D9D9;
       color: #353535; }
-    #Farver .color-palette .blue {
+    #Farver .color-palette .kontrast-1 {
       margin: 3px;
       padding: 3px;
-      background-color: #00454E;
+      background-color: #353535;
+      color: #F2F1ED; }
+    #Farver .color-palette .kontrast-2 {
+      margin: 3px;
+      padding: 3px;
+      background-color: #E781B0;
       color: #F2F1ED; }
 
 .ikon-palette {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #B8B5B5;
+  background-color: #F2F1ED;
   border-radius: 10px;
   padding: 3px;
   margin: 3px; }
@@ -107,53 +108,53 @@ button {
 
 .rund-button-1 {
   border-radius: 25px;
-  background-color: #00454E;
-  color: #F2F1ED; }
+  background-color: #8CC588;
+  color: #E781B0; }
 
 .rund-button-2 {
   border-radius: 25px;
-  background-color: #3C6E71;
-  color: #F2F1ED; }
+  background-color: #F2F1ED;
+  color: #E781B0; }
 
 .rund-button-3 {
   border-radius: 25px;
-  background-color: #353535;
-  color: #F2F1ED; }
+  background-color: #D9D9D9;
+  color: #E781B0; }
 
 .rund-button-4 {
   border-radius: 25px;
-  background-color: #D9D9D9;
-  color: #353535; }
+  background-color: #353535;
+  color: #D9D9D9; }
 
 .rund-button-5 {
   border-radius: 25px;
-  background-color: #F2F1ED;
-  color: #353535; }
+  background-color: #E781B0;
+  color: #D9D9D9; }
 
 .kant-button-1 {
   border-radius: 5px;
-  background-color: #00454E;
-  color: #F2F1ED; }
+  background-color: #8CC588;
+  color: #E781B0; }
 
 .kant-button-2 {
   border-radius: 5px;
-  background-color: #3C6E71;
-  color: #F2F1ED; }
+  background-color: #F2F1ED;
+  color: #E781B0; }
 
 .kant-button-3 {
   border-radius: 5px;
-  background-color: #353535;
-  color: #F2F1ED; }
+  background-color: #D9D9D9;
+  color: #E781B0; }
 
 .kant-button-4 {
   border-radius: 5px;
-  background-color: #D9D9D9;
-  color: #353535; }
+  background-color: #353535;
+  color: #D9D9D9; }
 
 .kant-button-5 {
   border-radius: 5px;
-  background-color: #F2F1ED;
-  color: #353535; }
+  background-color: #E781B0;
+  color: #D9D9D9; }
 
 .rund-bokse {
   display: flex;
@@ -166,8 +167,8 @@ button {
     padding: 3px;
     border: 3px solid #1B3243;
     border-radius: 10px;
-    background-color: #00454E;
-    color: #F2F1ED; }
+    background-color: #8CC588;
+    color: #E781B0; }
   .rund-bokse .rund-boks-2 {
     width: 40vmin;
     height: 20vmin;
@@ -175,8 +176,8 @@ button {
     padding: 3px;
     border: 3px solid #244244;
     border-radius: 10px;
-    background-color: #3C6E71;
-    color: #F2F1ED; }
+    background-color: #F2F1ED;
+    color: #E781B0; }
   .rund-bokse .rund-boks-3 {
     width: 40vmin;
     height: 20vmin;
@@ -184,8 +185,8 @@ button {
     padding: 3px;
     border: 3px solid #0F0E0E;
     border-radius: 10px;
-    background-color: #353535;
-    color: #F2F1ED; }
+    background-color: #D9D9D9;
+    color: #E781B0; }
   .rund-bokse .rund-boks-4 {
     width: 40vmin;
     height: 20vmin;
@@ -193,8 +194,8 @@ button {
     padding: 3px;
     border: 3px solid #B8B5B5;
     border-radius: 10px;
-    background-color: #D9D9D9;
-    color: #353535; }
+    background-color: #353535;
+    color: #D9D9D9; }
   .rund-bokse .rund-boks-5 {
     width: 40vmin;
     height: 20vmin;
@@ -202,8 +203,8 @@ button {
     padding: 3px;
     border: 3px solid #D8D7D4;
     border-radius: 10px;
-    background-color: #F2F1ED;
-    color: #353535; }
+    background-color: #E781B0;
+    color: #D9D9D9; }
 
 .kant-bokse {
   display: flex;
@@ -216,8 +217,8 @@ button {
     padding: 3px;
     border: 3px solid #1B3243;
     border-radius: 3px;
-    background-color: #00454E;
-    color: #F2F1ED; }
+    background-color: #8CC588;
+    color: #E781B0; }
   .kant-bokse .kant-boks-2 {
     width: 40vmin;
     height: 20vmin;
@@ -225,8 +226,8 @@ button {
     padding: 3px;
     border: 3px solid #244244;
     border-radius: 3px;
-    background-color: #3C6E71;
-    color: #F2F1ED; }
+    background-color: #F2F1ED;
+    color: #E781B0; }
   .kant-bokse .kant-boks-3 {
     width: 40vmin;
     height: 20vmin;
@@ -234,8 +235,8 @@ button {
     padding: 3px;
     border: 3px solid #0F0E0E;
     border-radius: 3px;
-    background-color: #353535;
-    color: #F2F1ED; }
+    background-color: #D9D9D9;
+    color: #E781B0; }
   .kant-bokse .kant-boks-4 {
     width: 40vmin;
     height: 20vmin;
@@ -243,8 +244,8 @@ button {
     padding: 3px;
     border: 3px solid #B8B5B5;
     border-radius: 3px;
-    background-color: #D9D9D9;
-    color: #353535; }
+    background-color: #353535;
+    color: #D9D9D9; }
   .kant-bokse .kant-boks-5 {
     width: 40vmin;
     height: 20vmin;
@@ -252,8 +253,8 @@ button {
     padding: 3px;
     border: 3px solid #D8D7D4;
     border-radius: 3px;
-    background-color: #F2F1ED;
-    color: #353535; }
+    background-color: #E781B0;
+    color: #D9D9D9; }
 
 #Typografi {
   display: flex;
@@ -269,7 +270,7 @@ button {
 form {
   width: 50vmin;
   height: 50vmin;
-  background-color: #D9D9D9;
+  background-color: #353535;
   margin: 5px;
   padding: 5px;
   text-align: center;
@@ -297,9 +298,9 @@ form {
     height: 6vmin;
     margin: 5px;
     padding: 5px;
-    background-color: #353535;
-    border: 2px solid #353535;
+    background-color: #D9D9D9;
+    border: 2px solid #D9D9D9;
     border-radius: 6px;
-    color: #F2F1ED; }
+    color: #E781B0; }
 
 /*# sourceMappingURL=style.css.map */

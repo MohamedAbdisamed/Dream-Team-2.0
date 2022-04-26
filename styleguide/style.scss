@@ -1,8 +1,8 @@
-$primary-color: #00454E; //Mørk blå
-$secondary-color: #3C6E71; //Grøn (tyrkis)
-$tertiary-color: #353535; //Sort grå
-$quarternary-color: #D9D9D9; // Lys grå
-$quinary-color: #F2F1ED; //Hvid
+$primary-color: #8CC588; //Grøn
+$secondary-color: #F2F1ED; //Hvid m. gul tint.
+$tertiary-color: #D9D9D9; //Lys Grå
+$quarternary-color: #353535; // Lys Sort, Kul
+$quinary-color: #E781B0; //Pink
 
 * {
     box-sizing: border-box;
@@ -26,11 +26,11 @@ header {
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: $quinary-color;
+  color: $secondary-color;
 }
   
 nav {
-  background-color: $quarternary-color;
+  background-color: $tertiary-color;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -48,7 +48,7 @@ nav {
                   padding: 6px 8px 6px 16px;
                   text-decoration: none;
                   font-size: 23px;
-                  color: $primary-color;
+                  color: $quarternary-color;
                   display: block;
               }
           }
@@ -76,35 +76,35 @@ section::after {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    .dark-grey {
-      margin: 3px;
-      padding: 3px;
-      background-color: $tertiary-color;
-      color: $quinary-color;
-    }
-    .cyan {
-      margin: 3px;
-      padding: 3px;
-      background-color: $secondary-color;
-      color: $quinary-color;
-    }
-    .grey-yellow {
-      margin: 3px;
-      padding: 3px;
-      background-color: $quinary-color;
-      color: $tertiary-color;
-    }
-    .light-grey {
-      margin: 3px;
-      padding: 3px;
-      background-color: $quarternary-color;
-      color: $tertiary-color;
-    }
-    .blue {
+    .primær {
       margin: 3px;
       padding: 3px;
       background-color: $primary-color;
-      color: $quinary-color;
+      color: $secondary-color;
+    }
+    .sekundær{
+      margin: 3px;
+      padding: 3px;
+      background-color: $secondary-color;
+      color: $quarternary-color;
+    }
+    .tertiær {
+      margin: 3px;
+      padding: 3px;
+      background-color: $tertiary-color;
+      color: $quarternary-color;
+    }
+    .kontrast-1 {
+      margin: 3px;
+      padding: 3px;
+      background-color: $quarternary-color;
+      color: $secondary-color;
+    }
+    .kontrast-2 {
+      margin: 3px;
+      padding: 3px;
+      background-color: $quinary-color;
+      color: $secondary-color;
     }
   }
 }
@@ -113,7 +113,7 @@ section::after {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #B8B5B5;
+  background-color: $secondary-color;
   border-radius: 10px;
   padding: 3px;
   margin: 3px;
