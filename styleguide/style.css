@@ -212,46 +212,46 @@ button {
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #1B3243;
+    border: 3px solid #628A5F;
     border-radius: 10px;
     background-color: #8CC588;
-    color: #E781B0; }
+    color: #F2F1ED; }
   .rund-bokse .rund-boks-2 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid #244244;
-    border-radius: 10px;
-    background-color: #F2F1ED;
-    color: #E781B0; }
-  .rund-bokse .rund-boks-3 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid #0F0E0E;
-    border-radius: 10px;
-    background-color: #D9D9D9;
-    color: #E781B0; }
-  .rund-bokse .rund-boks-4 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid #B8B5B5;
-    border-radius: 10px;
-    background-color: #353535;
-    color: #D9D9D9; }
-  .rund-bokse .rund-boks-5 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
     border: 3px solid #D8D7D4;
     border-radius: 10px;
+    background-color: #F2F1ED;
+    color: #353535; }
+  .rund-bokse .rund-boks-3 {
+    width: 40vmin;
+    height: 20vmin;
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #B8B5B5;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    color: #353535; }
+  .rund-bokse .rund-boks-4 {
+    width: 40vmin;
+    height: 20vmin;
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #0F0E0E;
+    border-radius: 10px;
+    background-color: #353535;
+    color: #F2F1ED; }
+  .rund-bokse .rund-boks-5 {
+    width: 40vmin;
+    height: 20vmin;
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #B9678D;
+    border-radius: 10px;
     background-color: #E781B0;
-    color: #D9D9D9; }
+    color: #F2F1ED; }
 
 .kant-bokse {
   display: flex;
@@ -262,46 +262,46 @@ button {
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #1B3243;
+    border: 3px solid #628A5F;
     border-radius: 3px;
     background-color: #8CC588;
-    color: #E781B0; }
+    color: #F2F1ED; }
   .kant-bokse .kant-boks-2 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid #244244;
-    border-radius: 3px;
-    background-color: #F2F1ED;
-    color: #E781B0; }
-  .kant-bokse .kant-boks-3 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid #0F0E0E;
-    border-radius: 3px;
-    background-color: #D9D9D9;
-    color: #E781B0; }
-  .kant-bokse .kant-boks-4 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid #B8B5B5;
-    border-radius: 3px;
-    background-color: #353535;
-    color: #D9D9D9; }
-  .kant-bokse .kant-boks-5 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
     border: 3px solid #D8D7D4;
     border-radius: 3px;
+    background-color: #F2F1ED;
+    color: #353535; }
+  .kant-bokse .kant-boks-3 {
+    width: 40vmin;
+    height: 20vmin;
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #B8B5B5;
+    border-radius: 3px;
+    background-color: #D9D9D9;
+    color: #353535; }
+  .kant-bokse .kant-boks-4 {
+    width: 40vmin;
+    height: 20vmin;
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #0F0E0E;
+    border-radius: 3px;
+    background-color: #353535;
+    color: #F2F1ED; }
+  .kant-bokse .kant-boks-5 {
+    width: 40vmin;
+    height: 20vmin;
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #B9678D;
+    border-radius: 3px;
     background-color: #E781B0;
-    color: #D9D9D9; }
+    color: #F2F1ED; }
 
 #Typografi {
   display: flex;

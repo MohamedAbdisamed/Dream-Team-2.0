@@ -249,50 +249,50 @@ button {
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #1B3243;
+    border: 3px solid $primary-border;
     border-radius: 10px;
     background-color: $primary-color;
-    color: $quinary-color;
+    color: $secondary-color;
   }
   .rund-boks-2 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #244244;
+    border: 3px solid $secondary-border;
     border-radius: 10px;
     background-color: $secondary-color;
-    color: $quinary-color;
+    color: $quarternary-color;
   }
   .rund-boks-3 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #0F0E0E;
+    border: 3px solid $tertiary-border;
     border-radius: 10px;
     background-color: $tertiary-color;
-    color: $quinary-color;
+    color: $quarternary-color;
   }
   .rund-boks-4 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #B8B5B5;
+    border: 3px solid $quarternary-border;
     border-radius: 10px;
     background-color: $quarternary-color;
-    color: $tertiary-color;
+    color: $secondary-color;
   }
   .rund-boks-5 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #D8D7D4;
+    border: 3px solid $quinary-border;
     border-radius: 10px;
     background-color: $quinary-color;
-    color: $tertiary-color;
+    color: $secondary-color;
   }
 }
 
@@ -305,50 +305,50 @@ button {
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #1B3243;
+    border: 3px solid $primary-border;
     border-radius: 3px;
     background-color: $primary-color;
-    color: $quinary-color;
+    color: $secondary-color;
   }
   .kant-boks-2 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #244244;
+    border: 3px solid $secondary-border;
     border-radius: 3px;
     background-color: $secondary-color;
-    color: $quinary-color;
+    color: $quarternary-color;
   }
   .kant-boks-3 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #0F0E0E;
+    border: 3px solid $tertiary-border;
     border-radius: 3px;
     background-color: $tertiary-color;
-    color: $quinary-color;
+    color: $quarternary-color;
   }
   .kant-boks-4 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #B8B5B5;
+    border: 3px solid $quarternary-border;
     border-radius: 3px;
     background-color: $quarternary-color;
-    color: $tertiary-color;
+    color: $secondary-color;
   }
   .kant-boks-5 {
     width: 40vmin;
     height: 20vmin;
     margin: 3px;
     padding: 3px;
-    border: 3px solid #D8D7D4;
+    border: 3px solid $quinary-border;
     border-radius: 3px;
     background-color: $quinary-color;
-    color: $tertiary-color;
+    color: $secondary-color;
   }
 }
 
