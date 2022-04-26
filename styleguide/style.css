@@ -8,16 +8,19 @@
     font-size: 40px; }
   * h2 {
     font-size: 30px; }
-
-* h body {
-  text-align: center; }
+  * body {
+    text-align: left; }
 
 header {
   background-color: #8CC588;
   padding: 30px;
-  text-align: center;
+  text-align: left;
   font-size: 35px;
-  color: #F2F1ED; }
+  color: #F2F1ED;
+  width: 75%;
+  left: 25%;
+  top: 0;
+  position: absolute; }
   header h2 {
     font-size: 20px; }
 
@@ -48,7 +51,9 @@ article {
   /* Same as the width of the sidenav */
   font-size: 18px;
   /* Increased text to enable scrolling */
-  padding: 0px 10px; }
+  padding: 0px 10px;
+  top: 20vmin;
+  position: absolute; }
 
 section::after {
   content: "";
@@ -145,23 +150,20 @@ button {
   width: 25vmin;
   height: 8vmin; }
 
-.rund-button-1 {
-  border-radius: 25px;
-  border: 3px solid #628A5F;
-  background-color: #8CC588;
-  color: #F2F1ED; }
-
-.rund-button-2 {
-  border-radius: 25px;
-  border: 3px solid #D8D7D4;
-  background-color: #F2F1ED;
-  color: #353535; }
-
-.rund-button-3 {
-  border-radius: 25px;
-  border: 3px solid #B8B5B5;
-  background-color: #D9D9D9;
-  color: #353535; }
+.rund-button, .rund-button-1, .rund-button-2, .rund-button-3 {
+  border-radius: 25px; }
+  .rund-button-1 {
+    border: 3px solid #628A5F;
+    background-color: #8CC588;
+    color: #F2F1ED; }
+  .rund-button-2 {
+    border: 3px solid #D8D7D4;
+    background-color: #F2F1ED;
+    color: #353535; }
+  .rund-button-3 {
+    border: 3px solid #B8B5B5;
+    background-color: #D9D9D9;
+    color: #353535; }
 
 .rund-button-4 {
   border-radius: 25px;
@@ -363,19 +365,22 @@ form {
   border-bottom: 2px solid #D8D7D4; }
   .top-menu-bar .nav-left-img {
     padding: 3px;
-    margin: 4px; }
+    margin: 4px;
+    padding-top: 9px; }
     .top-menu-bar .nav-left-img img {
-      width: 45px;
-      height: 45px; }
+      width: 35px;
+      height: 35px; }
   .top-menu-bar .side-titel {
     width: 300px;
-    text-align: center; }
+    text-align: center;
+    line-height: 0.6; }
   .top-menu-bar .nav-right-img {
     padding: 3px;
-    margin: 4px; }
+    margin: 4px;
+    padding-top: 9px; }
     .top-menu-bar .nav-right-img img {
-      width: 45px;
-      height: 45px; }
+      width: 35px;
+      height: 35px; }
 
 .bot-menu-bar {
   display: flex;
@@ -388,32 +393,36 @@ form {
   margin: 4px; }
   .bot-menu-bar .home-ikon {
     padding: 3px;
-    margin: 6px; }
+    padding-right: 8px;
+    margin: 10px; }
     .bot-menu-bar .home-ikon img {
-      width: 45px;
-      height: 45px; }
+      width: 35px;
+      height: 35px; }
   .bot-menu-bar .chat-ikon {
     padding: 3px;
-    margin: 6px; }
+    margin: 10px;
+    padding-right: 8px; }
     .bot-menu-bar .chat-ikon img {
-      width: 45px;
-      height: 45px; }
+      width: 35px;
+      height: 35px; }
   .bot-menu-bar .workout-ikon {
     padding: 3px;
-    margin: 6px; }
+    margin: 10px;
+    padding-right: 8px; }
     .bot-menu-bar .workout-ikon img {
-      height: 45px; }
+      height: 35px; }
   .bot-menu-bar .kalender-ikon {
     padding: 3px;
-    margin: 6px; }
+    margin: 10px;
+    padding-right: 8px; }
     .bot-menu-bar .kalender-ikon img {
-      width: 45px;
-      height: 45px; }
+      width: 35px;
+      height: 35px; }
   .bot-menu-bar .user-ikon {
     padding: 3px;
-    margin: 6px; }
+    margin: 10px; }
     .bot-menu-bar .user-ikon img {
-      width: 45px;
-      height: 45px; }
+      width: 35px;
+      height: 35px; }
 
 /*# sourceMappingURL=style.css.map */
