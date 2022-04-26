@@ -352,4 +352,66 @@ form {
     border-radius: 6px;
     color: #F2F1ED; }
 
+.top-menu-bar {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  height: 60px;
+  background-color: #F2F1ED;
+  border-bottom: 2px solid #D8D7D4; }
+  .top-menu-bar .nav-left-img {
+    padding: 3px;
+    margin: 4px; }
+    .top-menu-bar .nav-left-img img {
+      width: 45px;
+      height: 45px; }
+  .top-menu-bar .side-titel {
+    width: 300px;
+    text-align: center; }
+  .top-menu-bar .nav-right-img {
+    padding: 3px;
+    margin: 4px; }
+    .top-menu-bar .nav-right-img img {
+      width: 45px;
+      height: 45px; }
+
+.bot-menu-bar {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  height: 60px;
+  background-color: #F2F1ED;
+  border-bottom: 2px solid #D8D7D4;
+  text-align: center;
+  margin: 4px; }
+  .bot-menu-bar .home-ikon {
+    padding: 3px;
+    margin: 6px; }
+    .bot-menu-bar .home-ikon img {
+      width: 45px;
+      height: 45px; }
+  .bot-menu-bar .chat-ikon {
+    padding: 3px;
+    margin: 6px; }
+    .bot-menu-bar .chat-ikon img {
+      width: 45px;
+      height: 45px; }
+  .bot-menu-bar .workout-ikon {
+    padding: 3px;
+    margin: 6px; }
+    .bot-menu-bar .workout-ikon img {
+      height: 45px; }
+  .bot-menu-bar .kalender-ikon {
+    padding: 3px;
+    margin: 6px; }
+    .bot-menu-bar .kalender-ikon img {
+      width: 45px;
+      height: 45px; }
+  .bot-menu-bar .user-ikon {
+    padding: 3px;
+    margin: 6px; }
+    .bot-menu-bar .user-ikon img {
+      width: 45px;
+      height: 45px; }
+
 /*# sourceMappingURL=style.css.map */

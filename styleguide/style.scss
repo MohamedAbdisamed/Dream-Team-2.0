@@ -411,4 +411,83 @@ form {
   }
 }
 
+.top-menu-bar {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  height: 60px;
+  background-color: $secondary-color;
+  border-bottom: 2px solid $secondary-border;
+  .nav-left-img {
+      padding: 3px;
+      margin: 4px;
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  .side-titel {
+    width: 300px;
+    text-align: center;
+  }
+  .nav-right-img {
+      padding: 3px;
+      margin: 4px;
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+}
+
+.bot-menu-bar {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  height: 60px;
+  background-color: $secondary-color;
+  border-bottom: 2px solid $secondary-border;
+  text-align: center;
+  margin: 4px;
+  .home-ikon {
+    padding: 3px;
+    margin: 6px;
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  .chat-ikon {
+    padding: 3px;
+    margin: 6px;
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  .workout-ikon {
+    padding: 3px;
+    margin: 6px;
+    img {
+      height: 45px;
+    }
+  }
+  .kalender-ikon {
+    padding: 3px;
+    margin: 6px;
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  .user-ikon {
+    padding: 3px;
+    margin: 6px;
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+}
+
 
