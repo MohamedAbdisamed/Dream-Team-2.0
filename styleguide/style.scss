@@ -1,3 +1,4 @@
+//Farver variabler
 $primary-color: #8CC588; //Grøn
 $primary-border: #628A5F; // Grøn border
 $secondary-color: #F2F1ED; //Hvid m. gul tint.
@@ -9,10 +10,31 @@ $quarternary-border: #0F0E0E; //Lys Sort border
 $quinary-color: #E781B0; //Pink
 $quinary-border: #B9678D; //Pink border
 
+//Mixin, bruges til at optimere koden. 
+@mixin farveBokse($farveColor: black, $farveBackground: white, $farveText: Yellow) {
+  margin: 3px;
+  padding: 3px;
+  border-radius: 10px;
+  border: 5px solid $farveColor;
+  background-color: $farveBackground;
+  color: $farveText;
+}
+@mixin ikonBokse($direction: row, $wrap: wrap) {
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
 @mixin buttonColors($color: Black, $background: White, $textColor: Yellow) {
   border: 3px solid $color;
   background-color: $background;
   color: $textColor;
+}
+@mixin boksColors($boksColor: black, $boksBackground: white, $boksText: Yellow) {
+  width: 40vmin;
+  margin: 3px;
+  padding: 6px;
+  border: 3px solid $boksColor;
+  background-color: $boksBackground;
+  color: $boksText;
 }
 
 * {
@@ -78,7 +100,7 @@ article {
   margin-left: 28%; /* Same as the width of the sidenav */
   font-size: 18px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  top: 20vmin;
+  top: 35vmin;
   position: absolute;
 }
 
@@ -98,44 +120,19 @@ section::after {
     flex-direction: row;
     flex-wrap: wrap;
     .primær {
-      margin: 3px;
-      padding: 3px;
-      background-color: $primary-color;
-      color: $secondary-color;
-      border: 5px solid $primary-border;
-      border-radius: 10px;
+      @include farveBokse($primary-border, $primary-color, $secondary-color)
     }
     .sekundær{
-      margin: 3px;
-      padding: 3px;
-      background-color: $secondary-color;
-      color: $quarternary-color;
-      border: 5px solid $secondary-border;
-      border-radius: 10px;
+      @include farveBokse($secondary-border, $secondary-color, $quarternary-color)
     }
     .tertiær {
-      margin: 3px;
-      padding: 3px;
-      background-color: $tertiary-color;
-      color: $quarternary-color;
-      border: 5px solid $tertiary-border;
-      border-radius: 10px;
+      @include farveBokse($tertiary-border, $tertiary-color, $quarternary-color)
     }
     .kontrast-1 {
-      margin: 3px;
-      padding: 3px;
-      background-color: $quarternary-color;
-      color: $secondary-color;
-      border: 5px solid $quarternary-border;
-      border-radius: 10px;
+      @include farveBokse($quarternary-border, $quarternary-color, $secondary-color)
     }
     .kontrast-2 {
-      margin: 3px;
-      padding: 3px;
-      background-color: $quinary-color;
-      color: $secondary-color;
-      border: 5px solid $quinary-border;
-      border-radius: 10px;
+      @include farveBokse($quinary-border, $quinary-color, $secondary-color)
     }
   }
 }
@@ -148,44 +145,49 @@ section::after {
   border-radius: 10px;
   padding: 3px;
   margin: 3px;
-  .icon-active {
+  .icon {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    &-active {
+      @extend .icon;
+      @include ikonBokse(row, wrap)
+    }
+    &-cirkel {
+      @extend .icon;
+      @include ikonBokse(row, wrap)
+    }
+    &-passive {
+      @extend .icon;
+      @include ikonBokse(row, wrap)
+    }
+    &-billed {
+      @extend .icon;
+      @include ikonBokse(row, wrap)
+    }
+    &-andre {
+      @extend .icon;
+      @include ikonBokse(row, wrap);
+      background-color: $quarternary-color;
+      border-radius: 10px;
+      padding: 3px;
+      margin: 3px;
+    }
   }
-  .icon-cirkel {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .icon-passive {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .icon-billed {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+
   .icon-andre {
-    background-color: $quarternary-color;
-    border-radius: 10px;
-    padding: 3px;
-    margin: 3px;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   img {
-    width: 15vmin;
-    height: 15vmin;
+    width: 10vmin;
+    height: 10vmin;
     padding: 3px;
     margin: 3px;
   }
   .big-icon {
-    width: 20vmin; 
-    height: 15vmin;
+    width: 15vmin; 
+    height: 10vmin;
   }
 }
 
@@ -208,104 +210,66 @@ button {
     @extend .rund-button;
     @include buttonColors($tertiary-border, $tertiary-color,$quarternary-color);
   }
+  &-4 {
+    @extend .rund-button;
+    @include buttonColors($quarternary-border, $quarternary-color, $secondary-color)
+  }
+  &-5 {
+    @extend .rund-button;
+    @include buttonColors($quinary-border, $quinary-color, $secondary-color) 
+  }
 }
-  .rund-button-4 {
-    border-radius: 25px;
-    border: 3px solid $quarternary-border;
-    background-color: $quarternary-color;
-    color: $secondary-color;
+// Kantede knapper
+.kant-button {
+  border-radius: 5px;
+  &-1 {
+    @extend .kant-button;
+    @include buttonColors($primary-border, $primary-color, $secondary-color)
   }
-  .rund-button-5 {
-    border-radius: 25px;
-    border: 3px solid $quinary-border;
-    background-color: $quinary-color;
-    color: $secondary-color;
+  &-2 {
+    @extend .kant-button;
+    @include buttonColors($secondary-border, $secondary-color, $quarternary-color)
   }
-  // Kantede knapper
-  .kant-button-1 {
-    border-radius: 5px;
-    border: 3px solid $primary-border;
-    background-color: $primary-color;
-    color: $secondary-color;
+  &-3 {
+    @extend .kant-button;
+    @include buttonColors($tertiary-border, $tertiary-color, $quarternary-color)
   }
-  .kant-button-2 {
-    border-radius: 5px;
-    border: 3px solid $secondary-border;
-    background-color: $secondary-color;
-    color: $quarternary-color;
+  &-4 {
+    @extend .kant-button;
+    @include buttonColors($quarternary-border, $quarternary-color, $secondary-color)
   }
-  .kant-button-3 {
-    border-radius: 5px;
-    border: 3px solid $tertiary-border;
-    background-color: $tertiary-color;
-    color: $quarternary-color;
+  &-5 {
+    @extend .kant-button;
+    @include buttonColors($quinary-border, $quinary-color, $secondary-color)
   }
-  .kant-button-4 {
-    border-radius: 5px;
-    border: 3px solid $quarternary-border;
-    background-color: $quarternary-color;
-    color: $secondary-color;
-  }
-  .kant-button-5 {
-    border-radius: 5px;
-    border: 3px solid $quinary-border;
-    background-color: $quinary-color;
-    color: $secondary-color;
-  }
+}
 
 .rund-bokse {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  .rund-boks-1 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $primary-border;
+  .rund-boks {
     border-radius: 10px;
-    background-color: $primary-color;
-    color: $secondary-color;
-  }
-  .rund-boks-2 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $secondary-border;
-    border-radius: 10px;
-    background-color: $secondary-color;
-    color: $quarternary-color;
-  }
-  .rund-boks-3 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $tertiary-border;
-    border-radius: 10px;
-    background-color: $tertiary-color;
-    color: $quarternary-color;
-  }
-  .rund-boks-4 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $quarternary-border;
-    border-radius: 10px;
-    background-color: $quarternary-color;
-    color: $secondary-color;
-  }
-  .rund-boks-5 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $quinary-border;
-    border-radius: 10px;
-    background-color: $quinary-color;
-    color: $secondary-color;
+    &-1 {
+      @extend .rund-boks;
+      @include boksColors($primary-border, $primary-color, $secondary-color)
+    }
+    &-2 {
+      @extend .rund-boks;
+      @include boksColors($secondary-border, $secondary-color, $quarternary-color)
+    }
+    &-3 {
+      @extend .rund-boks;
+    @include boksColors($tertiary-border, $tertiary-color, $quarternary-color)
+    }
+    &-4 {
+      @extend .rund-boks;
+      @include boksColors($quarternary-border, $quarternary-color, $secondary-color)
+    }
+    &-5 {
+      @extend .rund-boks;
+      @include boksColors($quinary-border, $quinary-color, $secondary-color)
+    }
   }
 }
 
@@ -313,55 +277,28 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  .kant-boks-1 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $primary-border;
+  .kant-boks {
     border-radius: 3px;
-    background-color: $primary-color;
-    color: $secondary-color;
-  }
-  .kant-boks-2 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $secondary-border;
-    border-radius: 3px;
-    background-color: $secondary-color;
-    color: $quarternary-color;
-  }
-  .kant-boks-3 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $tertiary-border;
-    border-radius: 3px;
-    background-color: $tertiary-color;
-    color: $quarternary-color;
-  }
-  .kant-boks-4 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $quarternary-border;
-    border-radius: 3px;
-    background-color: $quarternary-color;
-    color: $secondary-color;
-  }
-  .kant-boks-5 {
-    width: 40vmin;
-    height: 20vmin;
-    margin: 3px;
-    padding: 3px;
-    border: 3px solid $quinary-border;
-    border-radius: 3px;
-    background-color: $quinary-color;
-    color: $secondary-color;
+    &-1 {
+      @extend .kant-boks;
+      @include boksColors($primary-border, $primary-color, $secondary-color)
+    }
+    &-2 {
+      @extend .kant-boks;
+      @include boksColors($secondary-border, $secondary-color, $quarternary-color)
+    }
+    &-3 {
+      @extend .kant-boks;
+      @include boksColors($tertiary-border, $tertiary-color, $quarternary-color)
+    }
+    &-4 {
+      @extend .kant-boks;
+      @include boksColors($quarternary-border, $quarternary-color, $secondary-color)
+    }
+    &-5 {
+      @extend .kant-boks;
+      @include boksColors($quinary-border, $quinary-color, $secondary-color)
+    }
   }
 }
 
@@ -431,12 +368,11 @@ form {
   height: 60px;
   background-color: $secondary-color;
   border-bottom: 2px solid $secondary-border;
-  .nav-left-img {
+  .nav-img {
       padding: 3px;
       margin: 4px;
       padding-top: 9px;
     img {
-      width: 35px;
       height: 35px;
     }
   }
@@ -444,15 +380,6 @@ form {
     width: 300px;
     text-align: center;
     line-height: 0.6;
-  }
-  .nav-right-img {
-      padding: 3px;
-      margin: 4px;
-      padding-top: 9px;
-    img {
-      width: 35px;
-      height: 35px;
-    }
   }
 }
 
@@ -465,49 +392,12 @@ form {
   border-bottom: 2px solid $secondary-border;
   text-align: center;
   margin: 4px;
-  .home-ikon {
+  .ikon {
     padding: 3px;
     padding-right: 8px;
     margin: 10px;
     img {
-      width: 35px;
-      height: 35px;
-    }
-  }
-  .chat-ikon {
-    padding: 3px;
-    margin: 10px;
-    padding-right: 8px;
-    img {
-      width: 35px;
-      height: 35px;
-    }
-  }
-  .workout-ikon {
-    padding: 3px;
-    margin: 10px;
-    padding-right: 8px;
-    img {
-      height: 35px;
-    }
-  }
-  .kalender-ikon {
-    padding: 3px;
-    margin: 10px;
-    padding-right: 8px;
-    img {
-      width: 35px;
-      height: 35px;
-    }
-  }
-  .user-ikon {
-    padding: 3px;
-    margin: 10px;
-    img {
-      width: 35px;
       height: 35px;
     }
   }
 }
-
-
