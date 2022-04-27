@@ -56,7 +56,7 @@ $quinary-border: #B9678D; //Pink border
 
 
 header {
-  background-color: $primary-color;
+  background-color: $primary-border;
   padding: 30px;
   text-align: left;
   font-size: 35px;
@@ -102,12 +102,6 @@ article {
   padding: 0px 10px;
   top: 35vmin;
   position: absolute;
-}
-
-section::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 #Farver {
