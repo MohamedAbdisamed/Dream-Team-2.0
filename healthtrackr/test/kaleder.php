@@ -24,7 +24,7 @@ require("mysqlconnect.php");
                 <a href="#" class="nav-right-img"><img src="../../styleguide/ikoner-2/Burger menu icon.svg" alt="Burger menu ikon, Health Trackr Burger menu ikon"></a>
             </div>
         </div>
-        
+
     </section>
     <footer>
         <div class="bot-menu-bar">

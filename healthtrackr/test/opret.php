@@ -34,4 +34,5 @@ require("mysqlconnect.php");
         <div class="bot-menu-bar"></div>
     </footer>
 </body>
+
 </html>

@@ -1,8 +1,9 @@
-<?php 
+<?php
 require("mysqlconnect.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@ require("mysqlconnect.php");
     <link rel="stylesheet" href="../../styleguide/style.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section>
         <div class="top-menu-bar">
@@ -21,8 +23,7 @@ require("mysqlconnect.php");
                 <h4>Side titel</h4>
             </div>
             <div class="nav-img">
-                <a href="#" class="nav-right-img"><img src="../../styleguide/ikoner-2/Burger menu icon.svg"
-                        alt="Burger menu ikon, Health Trackr Burger menu ikon"></a>
+                <a href="#" class="nav-right-img"><img src="../../styleguide/ikoner-2/Burger menu icon.svg" alt="Burger menu ikon, Health Trackr Burger menu ikon"></a>
             </div>
         </div>
         <h3>Hej XXXX</h3>
@@ -75,7 +76,8 @@ require("mysqlconnect.php");
         </div>
     </footer>
     <script>
-        
+
     </script>
 </body>
+
 </html>
