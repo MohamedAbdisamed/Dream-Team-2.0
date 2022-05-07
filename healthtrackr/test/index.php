@@ -15,7 +15,7 @@ require("mysqlconnect.php");
 <body>
     <section>
         <div class="background">
-            <button class="rund-button-1">Login</button>
+            <button class="rund-button-1" onclick="<?php header('location: login.php'); ?>">Login</button>
             <p>Ny bruger?</p>
             <p><b>Opret bruger</b></p>
         </div>

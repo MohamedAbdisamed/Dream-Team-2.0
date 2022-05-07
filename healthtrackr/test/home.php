@@ -1,5 +1,12 @@
 <?php
+session_start();
 require("mysqlconnect.php");
+
+if (isset($_SESSION['id'])) {
+    
+}else {
+    header('location: index.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -57,23 +64,9 @@ require("mysqlconnect.php");
         </div>
     </section>
     <footer>
-        <div class="bot-menu-bar">
-            <div class="ikon">
-                <a href="#"><img src="../../styleguide/ikoner-2/home icon -grøn.svg" alt="Home ikon, Health Trackr Home ikon"></a>
-            </div>
-            <div class="ikon">
-                <a href="#"><img src="../../styleguide/ikoner-2/Chat icon.svg" alt="Chat ikon, Health Trackr Chat ikon"></a>
-            </div>
-            <div class="ikon">
-                <a href="#"><img src="../../styleguide/ikoner-2/Workout icon.svg" alt="Workout ikon, Health Trackr Workout ikon"></a>
-            </div>
-            <div class="ikon">
-                <a href="#"><img src="../../styleguide/ikoner-2/Calender icon.svg" alt="Kalender ikon, Health Trackr Kalender ikon"></a>
-            </div>
-            <div class="ikon">
-                <a href="#"><img src="../../styleguide/ikoner-2/User icon.svg" alt="User ikon, Health Trackr User ikon"></a>
-            </div>
-        </div>
+        <?php
+            require("footer.php");
+        ?>
     </footer>
     <script>
 

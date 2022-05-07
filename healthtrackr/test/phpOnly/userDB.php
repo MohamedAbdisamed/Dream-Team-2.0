@@ -31,8 +31,6 @@ function login ($conn) {
         if(mysqli_num_rows($results) ==1) {
             $logged_in = mysqli_fetch_assoc($results);
             $_SESSION['id'] = $logged_in['id'];
-            $_SESSION['first_name'] = $logged_in['first_name'];
-            $_SESSION['last_name'] = $logged_in['last_name'];
             mysqli_close($conn);
             header('location:../home.php');
         }
