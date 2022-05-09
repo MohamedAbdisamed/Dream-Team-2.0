@@ -51,9 +51,11 @@ $quinary-border: #B9678D; //Pink border
     }
     & body{
       text-align: left;
+      background-color: $secondary-color;
+      color: $quarternary-color;
     }
+    
 }
-
 
 header {
   background-color: $primary-border;
