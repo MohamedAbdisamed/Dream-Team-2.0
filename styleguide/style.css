@@ -10,15 +10,14 @@
     font-size: 30px; }
   * body {
     text-align: left;
-    background-color: #F2F1ED;
-    color: #353535; }
+    color: #212529; }
 
 header {
-  background-color: #628A5F;
+  background-color: #023c2c;
   padding: 30px;
   text-align: left;
   font-size: 35px;
-  color: #F2F1ED;
+  color: #efefef;
   width: 75%;
   left: 25%;
   top: 0;
@@ -27,7 +26,7 @@ header {
     font-size: 20px; }
 
 nav {
-  background-color: #D9D9D9;
+  background-color: #037758;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -45,7 +44,7 @@ nav {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 23px;
-        color: #353535;
+        color: #efefef;
         display: block; }
 
 article {
@@ -70,43 +69,44 @@ article {
       margin: 3px;
       padding: 3px;
       border-radius: 10px;
-      border: 5px solid #628A5F;
-      background-color: #8CC588;
-      color: #F2F1ED; }
+      border: 5px solid #068a81;
+      background-color: #63c1c4;
+      color: #002824; }
     #Farver .color-palette .sekundær {
       margin: 3px;
       padding: 3px;
       border-radius: 10px;
-      border: 5px solid #D8D7D4;
-      background-color: #F2F1ED;
-      color: #353535; }
+      border: 5px solid #037758;
+      background-color: #06d6a0;
+      color: #023c2c; }
     #Farver .color-palette .tertiær {
       margin: 3px;
       padding: 3px;
       border-radius: 10px;
-      border: 5px solid #B8B5B5;
-      background-color: #D9D9D9;
-      color: #353535; }
+      border: 5px solid #6a3944;
+      background-color: #a96070;
+      color: #281519; }
     #Farver .color-palette .kontrast-1 {
       margin: 3px;
       padding: 3px;
       border-radius: 10px;
-      border: 5px solid #0F0E0E;
-      background-color: #353535;
-      color: #F2F1ED; }
+      border: 5px solid #33325d;
+      background-color: #57569f;
+      color: #161528; }
     #Farver .color-palette .kontrast-2 {
       margin: 3px;
       padding: 3px;
       border-radius: 10px;
-      border: 5px solid #B9678D;
-      background-color: #E781B0;
-      color: #F2F1ED; }
+      border: 5px solid #0d556e;
+      background-color: #189dc9;
+      color: #062b37; }
 
 .ikon-palette {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #F2F1ED;
+  background-color: #efefef;
+  border: 3px solid #037758;
   border-radius: 10px;
   padding: 3px;
   margin: 3px; }
@@ -127,7 +127,7 @@ article {
     .ikon-palette .icon-andre {
       flex-direction: row;
       flex-wrap: wrap;
-      background-color: #353535;
+      background-color: #efefef;
       border-radius: 10px;
       padding: 3px;
       margin: 3px; }
@@ -151,48 +151,48 @@ button {
 .rund-button, .rund-button-1, .rund-button-2, .rund-button-3, .rund-button-4, .rund-button-5 {
   border-radius: 25px; }
   .rund-button-1 {
-    border: 3px solid #628A5F;
-    background-color: #8CC588;
-    color: #F2F1ED; }
+    border: 3px solid #068a81;
+    background-color: #63c1c4;
+    color: #002824; }
   .rund-button-2 {
-    border: 3px solid #D8D7D4;
-    background-color: #F2F1ED;
-    color: #353535; }
+    border: 3px solid #037758;
+    background-color: #06d6a0;
+    color: #023c2c; }
   .rund-button-3 {
-    border: 3px solid #B8B5B5;
-    background-color: #D9D9D9;
-    color: #353535; }
+    border: 3px solid #6a3944;
+    background-color: #a96070;
+    color: #281519; }
   .rund-button-4 {
-    border: 3px solid #0F0E0E;
-    background-color: #353535;
-    color: #F2F1ED; }
+    border: 3px solid #33325d;
+    background-color: #57569f;
+    color: #161528; }
   .rund-button-5 {
-    border: 3px solid #B9678D;
-    background-color: #E781B0;
-    color: #F2F1ED; }
+    border: 3px solid #0d556e;
+    background-color: #189dc9;
+    color: #062b37; }
 
 .kant-button, .kant-button-1, .kant-button-2, .kant-button-3, .kant-button-4, .kant-button-5 {
   border-radius: 5px; }
   .kant-button-1 {
-    border: 3px solid #628A5F;
-    background-color: #8CC588;
-    color: #F2F1ED; }
+    border: 3px solid #068a81;
+    background-color: #63c1c4;
+    color: #002824; }
   .kant-button-2 {
-    border: 3px solid #D8D7D4;
-    background-color: #F2F1ED;
-    color: #353535; }
+    border: 3px solid #037758;
+    background-color: #06d6a0;
+    color: #023c2c; }
   .kant-button-3 {
-    border: 3px solid #B8B5B5;
-    background-color: #D9D9D9;
-    color: #353535; }
+    border: 3px solid #6a3944;
+    background-color: #a96070;
+    color: #281519; }
   .kant-button-4 {
-    border: 3px solid #0F0E0E;
-    background-color: #353535;
-    color: #F2F1ED; }
+    border: 3px solid #33325d;
+    background-color: #57569f;
+    color: #161528; }
   .kant-button-5 {
-    border: 3px solid #B9678D;
-    background-color: #E781B0;
-    color: #F2F1ED; }
+    border: 3px solid #0d556e;
+    background-color: #189dc9;
+    color: #062b37; }
 
 .rund-bokse {
   display: flex;
@@ -204,37 +204,37 @@ button {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #628A5F;
-      background-color: #8CC588;
-      color: #F2F1ED; }
+      border: 3px solid #068a81;
+      background-color: #63c1c4;
+      color: #002824; }
     .rund-bokse .rund-boks-2 {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #D8D7D4;
-      background-color: #F2F1ED;
-      color: #353535; }
+      border: 3px solid #037758;
+      background-color: #06d6a0;
+      color: #023c2c; }
     .rund-bokse .rund-boks-3 {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #B8B5B5;
-      background-color: #D9D9D9;
-      color: #353535; }
+      border: 3px solid #6a3944;
+      background-color: #a96070;
+      color: #281519; }
     .rund-bokse .rund-boks-4 {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #0F0E0E;
-      background-color: #353535;
-      color: #F2F1ED; }
+      border: 3px solid #33325d;
+      background-color: #57569f;
+      color: #161528; }
     .rund-bokse .rund-boks-5 {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #B9678D;
-      background-color: #E781B0;
-      color: #F2F1ED; }
+      border: 3px solid #0d556e;
+      background-color: #189dc9;
+      color: #062b37; }
 
 .kant-bokse {
   display: flex;
@@ -246,37 +246,37 @@ button {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #628A5F;
-      background-color: #8CC588;
-      color: #F2F1ED; }
+      border: 3px solid #068a81;
+      background-color: #63c1c4;
+      color: #002824; }
     .kant-bokse .kant-boks-2 {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #D8D7D4;
-      background-color: #F2F1ED;
-      color: #353535; }
+      border: 3px solid #037758;
+      background-color: #06d6a0;
+      color: #023c2c; }
     .kant-bokse .kant-boks-3 {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #B8B5B5;
-      background-color: #D9D9D9;
-      color: #353535; }
+      border: 3px solid #6a3944;
+      background-color: #a96070;
+      color: #281519; }
     .kant-bokse .kant-boks-4 {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #0F0E0E;
-      background-color: #353535;
-      color: #F2F1ED; }
+      border: 3px solid #33325d;
+      background-color: #57569f;
+      color: #161528; }
     .kant-bokse .kant-boks-5 {
       width: 40vmin;
       margin: 3px;
       padding: 6px;
-      border: 3px solid #B9678D;
-      background-color: #E781B0;
-      color: #F2F1ED; }
+      border: 3px solid #0d556e;
+      background-color: #189dc9;
+      color: #062b37; }
 
 #Typografi {
   display: flex;
@@ -292,7 +292,7 @@ button {
 form {
   width: 50vmin;
   height: 50vmin;
-  background-color: #628A5F;
+  background-color: #037758;
   margin: 5px;
   padding: 5px;
   text-align: center;
@@ -309,31 +309,31 @@ form {
     margin: 3px;
     padding: 4px;
     border-radius: 6px;
-    color: #628A5F; }
+    color: #037758; }
   form #form-kort-venstre {
     width: 23vmin;
     height: 6vmin;
     margin: 3px;
     padding-left: 4px;
     border-radius: 6px;
-    color: #628A5F; }
+    color: #037758; }
   form #opret {
     width: 10vmin;
     height: 6vmin;
     margin: 5px;
     padding: 5px;
-    background-color: #8CC588;
-    border: 2px solid #F2F1ED;
+    background-color: #06d6a0;
+    border: 2px solid #037758;
     border-radius: 6px;
-    color: #F2F1ED; }
+    color: #efefef; }
 
 .top-menu-bar {
   display: flex;
   flex-direction: row;
   width: 340px;
   height: 60px;
-  background-color: #F2F1ED;
-  border-bottom: 2px solid #D8D7D4; }
+  background-color: #efefef;
+  border-bottom: 2px solid #efefef; }
   .top-menu-bar .nav-img {
     padding: 3px;
     margin: 4px;
@@ -350,8 +350,8 @@ form {
   flex-direction: row;
   width: 340px;
   height: 60px;
-  background-color: #F2F1ED;
-  border-bottom: 2px solid #D8D7D4;
+  background-color: #efefef;
+  border-bottom: 2px solid #efefef;
   text-align: center;
   margin: 4px; }
   .bot-menu-bar .ikon {

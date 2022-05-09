@@ -1,14 +1,26 @@
 //Farver variabler
-$primary-color: #8CC588; //Grøn
-$primary-border: #628A5F; // Grøn border
-$secondary-color: #F2F1ED; //Hvid m. gul tint.
-$secondary-border: #D8D7D4; //Hvid border
-$tertiary-color: #D9D9D9; //Lys Grå
-$tertiary-border: #B8B5B5; //Lys grå border
-$quarternary-color: #353535; // Lys Sort, Kul
-$quarternary-border: #0F0E0E; //Lys Sort border
-$quinary-color: #E781B0; //Pink
-$quinary-border: #B9678D; //Pink border
+$tyrkis-color: #63c1c4; //tyrkis
+$tyrkis-border: #068a81; // tyrkis border
+$dark-tyrkis: #002824; // mørk tyrkis
+$light-tyrkis: #c9e7eb; //lys tyrkis
+$green-color: #06d6a0; //grøn
+$green-border: #037758; //grøn border
+$dark-green: #023c2c; //mørk grøn
+$light-green: #b7ded7; // lys grøn
+$pink-color: #a96070; //lyserød
+$pink-border: #6a3944; //lyserød border
+$dark-pink: #281519; // mørk pink
+$light-pink: #f2e4e7; // lys pink
+$purple-color: #57569f; //lilla
+$purple-border: #33325d; //lilla border
+$dark-purple: #161528; // mørk lilla
+$light-purple: #d8d7ea; //lys lilla
+$blue-color: #189dc9; //blå
+$blue-border: #0d556e; //blå border
+$dark-blue: #062b37; // mørk blå
+$light-blue: #b8e1f2; // lys blå
+$hvid: #efefef; // hvid
+$sort: #212529; // sort
 
 //Mixin, bruges til at optimere koden. 
 @mixin farveBokse($farveColor: black, $farveBackground: white, $farveText: Yellow) {
@@ -51,18 +63,17 @@ $quinary-border: #B9678D; //Pink border
     }
     & body{
       text-align: left;
-      background-color: $secondary-color;
-      color: $quarternary-color;
+      color: $sort;
     }
     
 }
 
 header {
-  background-color: $primary-border;
+  background-color: $dark-green;
   padding: 30px;
   text-align: left;
   font-size: 35px;
-  color: $secondary-color;
+  color: $hvid;
   width: 75%;
   left: 25%;
   top: 0;
@@ -73,7 +84,7 @@ header {
 }
   
 nav {
-  background-color: $tertiary-color;
+  background-color: $green-border;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -91,7 +102,7 @@ nav {
                   padding: 6px 8px 6px 16px;
                   text-decoration: none;
                   font-size: 23px;
-                  color: $quarternary-color;
+                  color: $hvid;
                   display: block;
               }
           }
@@ -116,19 +127,19 @@ article {
     flex-direction: row;
     flex-wrap: wrap;
     .primær {
-      @include farveBokse($primary-border, $primary-color, $secondary-color)
+      @include farveBokse($tyrkis-border, $tyrkis-color, $dark-tyrkis)
     }
     .sekundær{
-      @include farveBokse($secondary-border, $secondary-color, $quarternary-color)
+      @include farveBokse($green-border, $green-color, $dark-green)
     }
     .tertiær {
-      @include farveBokse($tertiary-border, $tertiary-color, $quarternary-color)
+      @include farveBokse($pink-border, $pink-color, $dark-pink)
     }
     .kontrast-1 {
-      @include farveBokse($quarternary-border, $quarternary-color, $secondary-color)
+      @include farveBokse($purple-border, $purple-color, $dark-purple)
     }
     .kontrast-2 {
-      @include farveBokse($quinary-border, $quinary-color, $secondary-color)
+      @include farveBokse($blue-border, $blue-color, $dark-blue)
     }
   }
 }
@@ -137,7 +148,8 @@ article {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: $secondary-color;
+  background-color: $hvid;
+  border: 3px solid $green-border;
   border-radius: 10px;
   padding: 3px;
   margin: 3px;
@@ -162,7 +174,7 @@ article {
     &-andre {
       @extend .icon;
       @include ikonBokse(row, wrap);
-      background-color: $quarternary-color;
+      background-color: $hvid;
       border-radius: 10px;
       padding: 3px;
       margin: 3px;
@@ -196,23 +208,23 @@ button {
   border-radius: 25px;  
   &-1 {
     @extend .rund-button;
-    @include buttonColors($primary-border, $primary-color, $secondary-color);
+    @include buttonColors($tyrkis-border, $tyrkis-color, $dark-tyrkis);
   }
   &-2 {
     @extend .rund-button;
-    @include buttonColors($secondary-border, $secondary-color, $quarternary-color);
+    @include buttonColors($green-border, $green-color, $dark-green);
   }
   &-3 {
     @extend .rund-button;
-    @include buttonColors($tertiary-border, $tertiary-color,$quarternary-color);
+    @include buttonColors($pink-border, $pink-color,$dark-pink);
   }
   &-4 {
     @extend .rund-button;
-    @include buttonColors($quarternary-border, $quarternary-color, $secondary-color)
+    @include buttonColors($purple-border, $purple-color, $dark-purple)
   }
   &-5 {
     @extend .rund-button;
-    @include buttonColors($quinary-border, $quinary-color, $secondary-color) 
+    @include buttonColors($blue-border, $blue-color, $dark-blue) 
   }
 }
 // Kantede knapper
@@ -220,23 +232,23 @@ button {
   border-radius: 5px;
   &-1 {
     @extend .kant-button;
-    @include buttonColors($primary-border, $primary-color, $secondary-color)
+    @include buttonColors($tyrkis-border, $tyrkis-color, $dark-tyrkis)
   }
   &-2 {
     @extend .kant-button;
-    @include buttonColors($secondary-border, $secondary-color, $quarternary-color)
+    @include buttonColors($green-border, $green-color, $dark-green)
   }
   &-3 {
     @extend .kant-button;
-    @include buttonColors($tertiary-border, $tertiary-color, $quarternary-color)
+    @include buttonColors($pink-border, $pink-color, $dark-pink)
   }
   &-4 {
     @extend .kant-button;
-    @include buttonColors($quarternary-border, $quarternary-color, $secondary-color)
+    @include buttonColors($purple-border, $purple-color, $dark-purple)
   }
   &-5 {
     @extend .kant-button;
-    @include buttonColors($quinary-border, $quinary-color, $secondary-color)
+    @include buttonColors($blue-border, $blue-color, $dark-blue)
   }
 }
 
@@ -248,23 +260,23 @@ button {
     border-radius: 10px;
     &-1 {
       @extend .rund-boks;
-      @include boksColors($primary-border, $primary-color, $secondary-color)
+      @include boksColors($tyrkis-border, $tyrkis-color, $dark-tyrkis)
     }
     &-2 {
       @extend .rund-boks;
-      @include boksColors($secondary-border, $secondary-color, $quarternary-color)
+      @include boksColors($green-border, $green-color, $dark-green)
     }
     &-3 {
       @extend .rund-boks;
-    @include boksColors($tertiary-border, $tertiary-color, $quarternary-color)
+    @include boksColors($pink-border, $pink-color, $dark-pink)
     }
     &-4 {
       @extend .rund-boks;
-      @include boksColors($quarternary-border, $quarternary-color, $secondary-color)
+      @include boksColors($purple-border, $purple-color, $dark-purple)
     }
     &-5 {
       @extend .rund-boks;
-      @include boksColors($quinary-border, $quinary-color, $secondary-color)
+      @include boksColors($blue-border, $blue-color, $dark-blue)
     }
   }
 }
@@ -277,23 +289,23 @@ button {
     border-radius: 3px;
     &-1 {
       @extend .kant-boks;
-      @include boksColors($primary-border, $primary-color, $secondary-color)
+      @include boksColors($tyrkis-border, $tyrkis-color, $dark-tyrkis)
     }
     &-2 {
       @extend .kant-boks;
-      @include boksColors($secondary-border, $secondary-color, $quarternary-color)
+      @include boksColors($green-border, $green-color, $dark-green)
     }
     &-3 {
       @extend .kant-boks;
-      @include boksColors($tertiary-border, $tertiary-color, $quarternary-color)
+      @include boksColors($pink-border, $pink-color, $dark-pink)
     }
     &-4 {
       @extend .kant-boks;
-      @include boksColors($quarternary-border, $quarternary-color, $secondary-color)
+      @include boksColors($purple-border, $purple-color, $dark-purple)
     }
     &-5 {
       @extend .kant-boks;
-      @include boksColors($quinary-border, $quinary-color, $secondary-color)
+      @include boksColors($blue-border, $blue-color, $dark-blue)
     }
   }
 }
@@ -317,7 +329,7 @@ button {
 form {
   width: 50vmin;
   height: 50vmin;
-  background-color: $primary-border;
+  background-color: $green-border;
   margin: 5px;
   padding: 5px;
   text-align: center;
@@ -335,7 +347,7 @@ form {
     margin: 3px ;
     padding: 4px;
     border-radius: 6px;
-    color: $primary-border;
+    color: $green-border;
   }
   #form-kort-venstre {
     width: 23vmin;
@@ -343,17 +355,17 @@ form {
     margin: 3px;
     padding-left: 4px;
     border-radius: 6px;
-    color: $primary-border;
+    color: $green-border;
   }
   #opret {
     width: 10vmin;
     height: 6vmin;
     margin: 5px;
     padding: 5px;
-    background-color: $primary-color;
-    border: 2px solid $secondary-color;
+    background-color: $green-color;
+    border: 2px solid $green-border;
     border-radius: 6px;
-    color: $secondary-color
+    color: $hvid;
   }
 }
 
@@ -362,8 +374,8 @@ form {
   flex-direction: row;
   width: 340px;
   height: 60px;
-  background-color: $secondary-color;
-  border-bottom: 2px solid $secondary-border;
+  background-color: $hvid;
+  border-bottom: 2px solid $hvid;
   .nav-img {
       padding: 3px;
       margin: 4px;
@@ -384,8 +396,8 @@ form {
   flex-direction: row;
   width: 340px;
   height: 60px;
-  background-color: $secondary-color;
-  border-bottom: 2px solid $secondary-border;
+  background-color: $hvid;
+  border-bottom: 2px solid $hvid;
   text-align: center;
   margin: 4px;
   .ikon {
