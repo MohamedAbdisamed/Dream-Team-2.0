@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Burger_menu_icon" data-name="Burger menu icon" transform="translate(-0.429)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(0.429)" fill="none" stroke="#013c2b" stroke-width="4">
+      <circle cx="27" cy="27" r="27" stroke="none"/>
+      <circle cx="27" cy="27" r="25" fill="none"/>
+    </g>
+    <g id="Icons" transform="translate(11.816 13.485)">
+      <g id="Rounded">
+        <g id="Action">
+          <g id="_-Round-_-Action-_-reorder" data-name="-Round-/-Action-/-reorder">
+            <g id="Group_41" data-name="Group 41">
+              <path id="Path" d="M0,0H30.341V26.007H0Z" transform="translate(0.002)" fill="none" fill-rule="evenodd"/>
+              <path id="_Icon-Color" data-name="🔹Icon-Color" d="M4.686,23.576h26.97a1.866,1.866,0,0,0,0-3.715H4.686a1.866,1.866,0,0,0,0,3.715Zm0,7.43h26.97a1.866,1.866,0,0,0,0-3.715H4.686a1.866,1.866,0,0,0,0,3.715Zm0-14.861h26.97a1.783,1.783,0,0,0,1.686-1.858,1.783,1.783,0,0,0-1.686-1.858H4.686A1.783,1.783,0,0,0,3,14.288a1.783,1.783,0,0,0,1.686,1.858ZM3,6.858A1.783,1.783,0,0,0,4.686,8.715h26.97a1.783,1.783,0,0,0,1.686-1.858A1.783,1.783,0,0,0,31.655,5H4.686A1.783,1.783,0,0,0,3,6.858Z" transform="translate(-2.998 -5)" fill="#013c2b" fill-rule="evenodd"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

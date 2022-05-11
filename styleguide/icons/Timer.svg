@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Timer" transform="translate(0.391)">
+    <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(-0.391)" fill="none" stroke="#013c2b" stroke-width="4">
+      <circle cx="27" cy="27" r="27" stroke="none"/>
+      <circle cx="27" cy="27" r="25" fill="none"/>
+    </g>
+    <g id="Icons" transform="translate(11.728 11.503)">
+      <g id="Outlined">
+        <g id="Action">
+          <g id="Outlined-_-Action-_-alarm" data-name="Outlined-/-Action-/-alarm">
+            <g id="Group_59" data-name="Group 59">
+              <path id="_-Icon-Color" data-name="🔹-Icon-Color" d="M18.238,11.258H15.914v9.158l7.36,4.35,1.162-1.877-6.2-3.617ZM25.733,1.81l7.138,5.869-1.983,2.343L23.745,4.156Zm-16.539,0L11.18,4.154,4.04,10.021,2.057,7.677Zm8.269,3.343A13.843,13.843,0,0,0,3.518,18.889,13.843,13.843,0,0,0,17.463,32.625,13.843,13.843,0,0,0,31.408,18.889,13.843,13.843,0,0,0,17.463,5.153Zm0,24.42A10.685,10.685,0,1,1,28.309,18.889,10.685,10.685,0,0,1,17.463,29.573Z" transform="translate(-2.057 -1.81)" fill="#013c2b" stroke="#013c2b" stroke-width="1" fill-rule="evenodd"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
