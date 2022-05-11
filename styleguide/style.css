@@ -39,28 +39,29 @@ nav {
   nav ul {
     list-style-type: none;
     padding: 1vmin;
-    margin-top: 5vmin; }
+    margin-top: 2vmin; }
     nav ul li {
       padding: 1vmin; }
       nav ul li a {
-        padding: 2vmin 3vmin 2vmin 5vmin;
+        padding: 1.6vmin;
         text-decoration: none;
         font-size: 3vmin;
         color: #efefef;
         display: block; }
 
-article {
-  margin-left: 38vmin;
-  /* Same as the width of the sidenav */
+section {
+  margin-left: 30vmin;
   font-size: 5vmin;
-  /* Increased text to enable scrolling */
-  padding: 0vmin 2vmin;
+  padding: 0vmin 1vmin;
   top: 40vmin;
   position: absolute;
   width: 165vmin;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap; }
+  section article {
+    width: 160vmin;
+    margin-left: 10vmin; }
 
 #Logoer {
   display: flex;
@@ -508,85 +509,87 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
-  .rund-bokse .rund-boks, .rund-bokse .rund-boks-1, .rund-bokse .rund-boks-2, .rund-bokse .rund-boks-3, .rund-bokse .rund-boks-4, .rund-bokse .rund-boks-5 {
-    border-radius: 2vmin; }
-    .rund-bokse .rund-boks-1 {
-      width: 40vmin;
-      margin: 1vmin;
+  .rund-bokse .rund-boks, .rund-bokse .rund-boks-tyrkis, .rund-bokse .rund-boks-green, .rund-bokse .rund-boks-blue, .rund-bokse .rund-boks-purple, .rund-bokse .rund-boks-pink {
+    border-radius: 3vmin;
+    margin: 1vmin; }
+    .rund-bokse .rund-boks-tyrkis {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #013c2b;
-      color: #efefef; }
-    .rund-bokse .rund-boks-2 {
-      width: 40vmin;
-      margin: 1vmin;
+      background-color: #efefef;
+      color: #013c2b;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #068a81; }
+    .rund-bokse .rund-boks-green {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #013c2b;
-      color: #efefef; }
-    .rund-bokse .rund-boks-3 {
-      width: 40vmin;
-      margin: 1vmin;
+      background-color: #efefef;
+      color: #013c2b;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #047758; }
+    .rund-bokse .rund-boks-blue {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #062b37;
-      color: #efefef; }
-    .rund-bokse .rund-boks-4 {
-      width: 40vmin;
-      margin: 1vmin;
+      background-color: #efefef;
+      color: #062b37;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #10556e; }
+    .rund-bokse .rund-boks-purple {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #161528;
-      color: #efefef; }
-    .rund-bokse .rund-boks-5 {
-      width: 40vmin;
-      margin: 1vmin;
+      background-color: #efefef;
+      color: #161528;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #33315c; }
+    .rund-bokse .rund-boks-pink {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #281519;
-      color: #efefef; }
+      background-color: #efefef;
+      color: #281519;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #6a3944; }
 
 .kant-bokse {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
-  .kant-bokse .kant-boks, .kant-bokse .kant-boks-1, .kant-bokse .kant-boks-2, .kant-bokse .kant-boks-3, .kant-bokse .kant-boks-4, .kant-bokse .kant-boks-5 {
-    border-radius: 1vmin; }
-    .kant-bokse .kant-boks-1 {
-      width: 40vmin;
-      margin: 1vmin;
+  .kant-bokse .kant-boks, .kant-bokse .kant-boks-tyrkis, .kant-bokse .kant-boks-green, .kant-bokse .kant-boks-blue, .kant-bokse .kant-boks-purple, .kant-bokse .kant-boks-pink {
+    border-radius: 1vmin;
+    margin: 1vmin; }
+    .kant-bokse .kant-boks-tyrkis {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #013c2b;
-      color: #efefef; }
-    .kant-bokse .kant-boks-2 {
-      width: 40vmin;
-      margin: 1vmin;
+      background-color: #efefef;
+      color: #013c2b;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #068a81; }
+    .kant-bokse .kant-boks-green {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #013c2b;
-      color: #efefef; }
-    .kant-bokse .kant-boks-3 {
-      width: 40vmin;
-      margin: 1vmin;
+      background-color: #efefef;
+      color: #013c2b;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #047758; }
+    .kant-bokse .kant-boks-blue {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #062b37;
-      color: #efefef; }
-    .kant-bokse .kant-boks-4 {
-      width: 40vmin;
-      margin: 1vmin;
+      background-color: #efefef;
+      color: #062b37;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #10556e; }
+    .kant-bokse .kant-boks-purple {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #161528;
-      color: #efefef; }
-    .kant-bokse .kant-boks-5 {
-      width: 40vmin;
-      margin: 1vmin;
+      background-color: #efefef;
+      color: #161528;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #33315c; }
+    .kant-bokse .kant-boks-pink {
       padding: 1.5vmin;
-      border: 0.5vmin solid #efefef;
-      background-color: #281519;
-      color: #efefef; }
+      background-color: #efefef;
+      color: #281519;
+      border-width: 1.5vmin 1.5vmin 0.6vmin 0.6vmin;
+      border-style: solid;
+      border-color: #6a3944; }
 
 #Typografi {
   display: flex;
@@ -595,6 +598,16 @@ button {
     font-size: 2.5vmin; }
   #Typografi .font-type .sub-tekst p {
     font-size: 2vmin; }
+
+#Billeder {
+  display: flex;
+  flex-direction: column; }
+  #Billeder .img-gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    #Billeder .img-gallery img {
+      height: 50vmin; }
 
 form {
   width: 50vmin;
@@ -664,5 +677,15 @@ form {
   border-radius: 1vmin; }
   .code code {
     font-size: 2.3vmin; }
+
+.footer {
+  height: 10vmin;
+  width: 175vmin;
+  left: 0;
+  margin-left: 0;
+  background-color: #013c2b;
+  color: #efefef;
+  text-align: center;
+  padding: 1vmin; }
 
 /*# sourceMappingURL=style.css.map */
