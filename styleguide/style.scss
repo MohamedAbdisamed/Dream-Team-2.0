@@ -1,50 +1,74 @@
-//Farver variabler
-$tyrkis-color: #63c1c4; //tyrkis
-$tyrkis-border: #068a81; // tyrkis border
-$dark-tyrkis: #002824; // mørk tyrkis
-$light-tyrkis: #c9e7eb; //lys tyrkis
-$green-color: #06d6a0; //grøn
-$green-border: #037758; //grøn border
-$dark-green: #023c2c; //mørk grøn
-$light-green: #b7ded7; // lys grøn
-$pink-color: #a96070; //lyserød
-$pink-border: #6a3944; //lyserød border
-$dark-pink: #281519; // mørk pink
-$light-pink: #f2e4e7; // lys pink
-$purple-color: #57569f; //lilla
-$purple-border: #33325d; //lilla border
-$dark-purple: #161528; // mørk lilla
-$light-purple: #d8d7ea; //lys lilla
-$blue-color: #189dc9; //blå
-$blue-border: #0d556e; //blå border
-$dark-blue: #062b37; // mørk blå
-$light-blue: #b8e1f2; // lys blå
+
+//FARVER
+    //tyrkis
+$black-tyrkis: #013c2b; 
+$dark-tyrkis: #068a81; 
+$primary-tyrkis: #63c1c4; 
+$light-tyrkis: #84ccd4; 
+$white-tyrkis: #c9e7eb; 
+    //green 
+$black-green: #013c2b; 
+$dark-green: #047758; 
+$primary-green: #50b795; 
+$light-green: #79c5b2; 
+$white-green: #b7ded7;
+    //blue
+$black-blue: #062b37; 
+$dark-blue: #10556e; 
+$primary-blue: #159cc9; 
+$light-blue: #57c3e8; 
+$white-blue: #b8e1f2;
+    //purple
+$black-purple: #161528; 
+$dark-purple: #33315c; 
+$primary-purple: #5756a0;
+$light-purple: #8a88c0;
+$white-purple: #d8d7ea;
+    //pink
+$black-pink: #281519; 
+$dark-pink: #6a3944; 
+$primary-pink: #aa6070; 
+$light-pink: #cea3ac; 
+$white-pink: #f2e4e7;
+    //ekstra lys
+$tyrkis-white: #daeef1;
+$green-white: #cfe5e0;
+$blue-white: #daedf4;
+$purple-white: #e3e2ee;
+$pink-white:  #faf0f2;
+    //andre
 $hvid: #efefef; // hvid
 $sort: #212529; // sort
 
 //Mixin, bruges til at optimere koden. 
 @mixin farveBokse($farveColor: black, $farveBackground: white, $farveText: Yellow) {
-  margin: 3px;
-  padding: 3px;
-  border-radius: 10px;
-  border: 5px solid $farveColor;
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid $farveColor;
   background-color: $farveBackground;
   color: $farveText;
 }
 @mixin ikonBokse($direction: row, $wrap: wrap) {
+  display: flex;
   flex-direction: $direction;
   flex-wrap: $wrap;
 }
 @mixin buttonColors($color: Black, $background: White, $textColor: Yellow) {
-  border: 3px solid $color;
+  border: 0.5vmin solid $color;
   background-color: $background;
   color: $textColor;
+  p {
+    font-size: 1.8vmin;
+  }
 }
 @mixin boksColors($boksColor: black, $boksBackground: white, $boksText: Yellow) {
   width: 40vmin;
-  margin: 3px;
-  padding: 6px;
-  border: 3px solid $boksColor;
+  margin: 1vmin;
+  padding: 1.5vmin;
+  border: 0.5vmin solid $boksColor;
   background-color: $boksBackground;
   color: $boksText;
 }
@@ -53,13 +77,16 @@ $sort: #212529; // sort
     box-sizing: border-box;
     font-family: Verdana, sans-serif;
     p {
-      font-size: 15px;
+      font-size: 2.3vmin;
     }
     h1 {
-      font-size: 40px;
+      font-size: 6vmin;
     }
     h2 {
-      font-size: 30px;
+      font-size: 4vmin;
+    }
+    h3 {
+      font-size: 3vmin;
     }
     & body{
       text-align: left;
@@ -69,39 +96,39 @@ $sort: #212529; // sort
 }
 
 header {
-  background-color: $dark-green;
-  padding: 30px;
+  background-color: $black-green;
+  padding: 8vmin;
   text-align: left;
-  font-size: 35px;
+  font-size: 10vmin;
   color: $hvid;
-  width: 75%;
-  left: 25%;
+  width: 175vmin;
+  left: 35vmin;
   top: 0;
   position: absolute;
   h2 {
-    font-size: 20px;
+    font-size: 4vmin;
   }
 }
   
 nav {
-  background-color: $green-border;
+  background-color: $dark-green;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   overflow-x: hidden;
   height: 100%;
-  width: 25%;
+  width: 35vmin;
       ul {
           list-style-type: none;
-          padding: 5px;
-          margin-top: 10px;
+          padding: 1vmin;
+          margin-top: 5vmin;
           li {
-              padding: 2%;
+              padding: 1vmin;
               a {
-                  padding: 6px 8px 6px 16px;
+                  padding: 2vmin 3vmin 2vmin 5vmin;
                   text-decoration: none;
-                  font-size: 23px;
+                  font-size: 3vmin;
                   color: $hvid;
                   display: block;
               }
@@ -110,36 +137,159 @@ nav {
 }
   
 article {
-  margin-left: 28%; /* Same as the width of the sidenav */
-  font-size: 18px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-  top: 35vmin;
+  margin-left: 38vmin; /* Same as the width of the sidenav */
+  font-size: 5vmin; /* Increased text to enable scrolling */
+  padding: 0vmin 2vmin;
+  top: 40vmin;
   position: absolute;
+  width: 165vmin;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#Logoer {
+  display: flex;
+  flex-direction: column;
+  .logo {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+    height: 40vmin;
+    background-color: $black-green;
+    padding: 3vmin;
+    margin: 2vmin;
+    border-radius: 5vmin;
+    }
+  }
 }
 
 #Farver {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   .color-palette {
-    margin: 3px;
-    padding: 3px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    .primær {
-      @include farveBokse($tyrkis-border, $tyrkis-color, $dark-tyrkis)
+    padding: 1vmin;
+    .tyrkis {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .sort {
+        @include farveBokse($black-tyrkis, $black-tyrkis, $hvid);
+      }
+      .dark {
+        @include farveBokse($dark-tyrkis, $dark-tyrkis, $hvid);
+      }
+      .primær {
+        @include farveBokse($primary-tyrkis, $primary-tyrkis, $hvid);
+      }
+      .lys {
+        @include farveBokse($light-tyrkis, $light-tyrkis, $black-tyrkis);
+      }
+      .hvid {
+        @include farveBokse($white-tyrkis, $white-tyrkis, $black-tyrkis);
+      }
     }
-    .sekundær{
-      @include farveBokse($green-border, $green-color, $dark-green)
+    .green {
+      display: flex;
+      flex-wrap: wrap;
+      .sort {
+        @include farveBokse($black-green, $black-green, $hvid);
+      }
+      .dark {
+        @include farveBokse($dark-green, $dark-green, $hvid);
+      }
+      .primær {
+        @include farveBokse($primary-green,$primary-green, $hvid);
+      }
+      .lys {
+        @include farveBokse($light-green,$light-green, $black-green);
+      }
+      .hvid {
+        @include farveBokse($white-green,$white-green, $black-green);
+      }
     }
-    .tertiær {
-      @include farveBokse($pink-border, $pink-color, $dark-pink)
+    .blue {
+      display: flex;
+      flex-wrap: wrap;
+      .sort {
+        @include farveBokse($black-blue,$black-blue, $hvid);
+      }
+      .dark {
+        @include farveBokse($dark-blue, $dark-blue, $hvid);
+      }
+      .primær {
+        @include farveBokse($primary-blue, $primary-blue, $hvid);
+      }
+      .lys {
+        @include farveBokse($light-blue, $light-blue, $black-blue);
+      }
+      .hvid {
+        @include farveBokse($white-blue, $white-blue, $black-blue);
+      }
     }
-    .kontrast-1 {
-      @include farveBokse($purple-border, $purple-color, $dark-purple)
+    .purple {
+      display: flex;
+      flex-wrap: wrap;
+      .sort {
+        @include farveBokse($black-purple, $black-purple, $hvid);
+      }
+      .dark {
+        @include farveBokse($dark-purple, $dark-purple, $hvid);
+      }
+      .primær {
+        @include farveBokse($primary-purple, $primary-purple, $hvid);
+      }
+      .lys {
+        @include farveBokse($light-purple, $light-purple, $black-purple);
+      }
+      .hvid {
+        @include farveBokse($white-purple, $white-purple, $black-purple);
+      }
     }
-    .kontrast-2 {
-      @include farveBokse($blue-border, $blue-color, $dark-blue)
+    .pink {
+      display: flex;
+      flex-wrap: wrap;
+      .sort {
+        @include farveBokse($black-pink, $black-pink, $hvid);
+      }
+      .dark {
+        @include farveBokse($dark-pink, $dark-pink, $hvid);
+      }
+      .primær {
+        @include farveBokse($primary-pink, $primary-pink, $hvid);
+      }
+      .lys {
+        @include farveBokse($light-pink, $light-pink, $black-pink);
+      }
+      .hvid {
+        @include farveBokse($white-pink, $white-pink, $black-pink);
+      }
+    }
+    .ekstra {
+      display: flex;
+      flex-wrap: wrap;
+      .tyrkis-white {
+        @include farveBokse($tyrkis-white, $tyrkis-white, $black-tyrkis);
+      }
+      .green-white {
+        @include farveBokse($green-white, $green-white, $black-green);
+      }
+      .blue-white {
+        @include farveBokse($blue-white, $blue-white, $black-blue);
+      }
+      .purple-white {
+        @include farveBokse($purple-white, $purple-white, $black-purple);
+      }
+      .pink-white {
+        @include farveBokse($pink-white, $pink-white, $black-pink);
+      }
+      .white {
+        @include farveBokse($hvid, $hvid, $sort);
+      }
+      .black {
+        @include farveBokse($sort, $sort, $hvid);
+      }
     }
   }
 }
@@ -149,82 +299,77 @@ article {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: $hvid;
-  border: 3px solid $green-border;
-  border-radius: 10px;
-  padding: 3px;
-  margin: 3px;
+  border-radius: 3vmin;
+  padding: 1vmin;
   .icon {
     display: flex;
     &-active {
       @extend .icon;
-      @include ikonBokse(row, wrap)
+      @include ikonBokse(row, wrap);
     }
     &-cirkel {
       @extend .icon;
-      @include ikonBokse(row, wrap)
+      @include ikonBokse(row, wrap);
     }
     &-passive {
       @extend .icon;
-      @include ikonBokse(row, wrap)
+      @include ikonBokse(row, wrap);
     }
     &-billed {
       @extend .icon;
-      @include ikonBokse(row, wrap)
+      @include ikonBokse(row, wrap);
     }
     &-andre {
       @extend .icon;
       @include ikonBokse(row, wrap);
-      background-color: $hvid;
-      border-radius: 10px;
-      padding: 3px;
-      margin: 3px;
+      background-color: $black-green;
+      border-radius: 3vmin;
+      padding: 1vmin;
+      margin-top: 1vmin;
     }
   }
-
   .icon-andre {
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   img {
-    width: 10vmin;
-    height: 10vmin;
-    padding: 3px;
-    margin: 3px;
+    width: 8vmin;
+    height: 8vmin;
+    padding: 0.3vmin;
+    margin: 0.3vmin;
   }
   .big-icon {
-    width: 15vmin; 
-    height: 10vmin;
+    width: 13vmin; 
+    height: 8vmin;
   }
 }
 
 button {
-  width: 25vmin;
-  height: 8vmin;
+  width: 18vmin;
 }
 //Afrrundede knapper
 .rund-button {
-  border-radius: 25px;  
+  border-radius: 2vmin;  
   &-1 {
     @extend .rund-button;
-    @include buttonColors($tyrkis-border, $tyrkis-color, $dark-tyrkis);
+    @include buttonColors($hvid, $dark-tyrkis, $hvid);
   }
   &-2 {
     @extend .rund-button;
-    @include buttonColors($green-border, $green-color, $dark-green);
+    @include buttonColors($hvid, $dark-green, $hvid);
   }
   &-3 {
     @extend .rund-button;
-    @include buttonColors($pink-border, $pink-color,$dark-pink);
+    @include buttonColors($hvid, $dark-blue,$hvid);
   }
   &-4 {
     @extend .rund-button;
-    @include buttonColors($purple-border, $purple-color, $dark-purple)
+    @include buttonColors($hvid, $dark-purple, $hvid);
   }
   &-5 {
     @extend .rund-button;
-    @include buttonColors($blue-border, $blue-color, $dark-blue) 
+    @include buttonColors($hvid, $dark-pink, $hvid);
   }
 }
 // Kantede knapper
@@ -232,23 +377,23 @@ button {
   border-radius: 5px;
   &-1 {
     @extend .kant-button;
-    @include buttonColors($tyrkis-border, $tyrkis-color, $dark-tyrkis)
+    @include buttonColors($hvid, $dark-tyrkis, $hvid);
   }
   &-2 {
     @extend .kant-button;
-    @include buttonColors($green-border, $green-color, $dark-green)
+    @include buttonColors($hvid, $dark-green, $hvid);
   }
   &-3 {
     @extend .kant-button;
-    @include buttonColors($pink-border, $pink-color, $dark-pink)
+    @include buttonColors($hvid, $dark-blue, $hvid);
   }
   &-4 {
     @extend .kant-button;
-    @include buttonColors($purple-border, $purple-color, $dark-purple)
+    @include buttonColors($hvid, $dark-purple, $hvid);
   }
   &-5 {
     @extend .kant-button;
-    @include buttonColors($blue-border, $blue-color, $dark-blue)
+    @include buttonColors($hvid, $dark-pink, $hvid);
   }
 }
 
@@ -257,26 +402,26 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   .rund-boks {
-    border-radius: 10px;
+    border-radius: 2vmin;
     &-1 {
       @extend .rund-boks;
-      @include boksColors($tyrkis-border, $tyrkis-color, $dark-tyrkis)
+      @include boksColors($hvid, $black-tyrkis, $hvid);
     }
     &-2 {
       @extend .rund-boks;
-      @include boksColors($green-border, $green-color, $dark-green)
+      @include boksColors($hvid, $black-green, $hvid);
     }
     &-3 {
       @extend .rund-boks;
-    @include boksColors($pink-border, $pink-color, $dark-pink)
+      @include boksColors($hvid, $black-blue, $hvid);
     }
     &-4 {
       @extend .rund-boks;
-      @include boksColors($purple-border, $purple-color, $dark-purple)
+      @include boksColors($hvid, $black-purple, $hvid);
     }
     &-5 {
       @extend .rund-boks;
-      @include boksColors($blue-border, $blue-color, $dark-blue)
+      @include boksColors($hvid, $black-pink, $hvid);
     }
   }
 }
@@ -286,26 +431,26 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   .kant-boks {
-    border-radius: 3px;
+    border-radius: 1vmin;
     &-1 {
       @extend .kant-boks;
-      @include boksColors($tyrkis-border, $tyrkis-color, $dark-tyrkis)
+      @include boksColors($hvid, $black-tyrkis, $hvid);
     }
     &-2 {
       @extend .kant-boks;
-      @include boksColors($green-border, $green-color, $dark-green)
+      @include boksColors($hvid, $black-green, $hvid);
     }
     &-3 {
       @extend .kant-boks;
-      @include boksColors($pink-border, $pink-color, $dark-pink)
+      @include boksColors($hvid, $black-blue, $hvid);
     }
     &-4 {
       @extend .kant-boks;
-      @include boksColors($purple-border, $purple-color, $dark-purple)
+      @include boksColors($hvid, $black-purple, $hvid);
     }
     &-5 {
       @extend .kant-boks;
-      @include boksColors($blue-border, $blue-color, $dark-blue)
+      @include boksColors($hvid, $black-pink, $hvid);
     }
   }
 }
@@ -315,97 +460,93 @@ button {
   display: flex;
   flex-direction: column;
   .font-type {
-    margin: 5px;
-    padding: 5px;
     .header-tekst p {
-      font-size: 40px;
+      font-size: 2.5vmin;
     }
     .sub-tekst p {
-      font-size: 30px;
+      font-size: 2vmin;
     }
   }
 }
 
 form {
   width: 50vmin;
-  height: 50vmin;
-  background-color: $green-border;
-  margin: 5px;
-  padding: 5px;
+  background-color: $black-green;
+  padding: 1vmin;
   text-align: center;
-  border-radius: 6px;
-  #form-bred {
-    width: 48vmin;
-    height: 6vmin;
-    margin: 3px;
-    padding: 3px;
-    border-radius: 6px;
+  border-radius: 2vmin;
+  #form-boks {
+    width: 46vmin;
+    height: 5vmin;
+    margin-top: 2vmin;
+    padding: 1vmin;
+    border-radius: 1vmin;
+    color: $dark-green;
+      &-kort{
+      width: 22vmin;
+      height: 5vmin;
+      padding: 1vmin;
+      margin-top: 2vmin;
+      border-radius: 1vmin;
+      color: $dark-green;
+    }
   }
-  #form-kort {
-    width: 23vmin;
-    height: 6vmin;
-    margin: 3px ;
-    padding: 4px;
-    border-radius: 6px;
-    color: $green-border;
-  }
-  #form-kort-venstre {
-    width: 23vmin;
-    height: 6vmin;
-    margin: 3px;
-    padding-left: 4px;
-    border-radius: 6px;
-    color: $green-border;
-  }
-  #opret {
-    width: 10vmin;
-    height: 6vmin;
-    margin: 5px;
-    padding: 5px;
-    background-color: $green-color;
-    border: 2px solid $green-border;
-    border-radius: 6px;
+  #Opret {
+    background-color: $dark-green;
     color: $hvid;
+    border: 0.3vmin solid $hvid;
+    border-radius: 1vmin;
+    width: 10vmin;
+    margin-top: 1vmin;
+    padding: 0.5vmin;
   }
 }
 
 .top-menu-bar {
   display: flex;
   flex-direction: row;
-  width: 340px;
-  height: 60px;
+  width: 70vmin;
+  height: 10vmin;
   background-color: $hvid;
-  border-bottom: 2px solid $hvid;
+  border-bottom: 1vmin solid $hvid;
   .nav-img {
-      padding: 3px;
-      margin: 4px;
-      padding-top: 9px;
+      padding: 1vmin;
+      margin: 1vmin;
+      padding-top: 1vmin;
     img {
-      height: 35px;
+      height: 6vmin;
     }
   }
   .side-titel {
-    width: 300px;
+    width: 50vmin;
     text-align: center;
-    line-height: 0.6;
+    line-height: 1.1;
   }
 }
 
 .bot-menu-bar {
   display: flex;
   flex-direction: row;
-  width: 340px;
-  height: 60px;
+  width: 70vmin;
+  height: 10vmin;
   background-color: $hvid;
-  border-bottom: 2px solid $hvid;
-  text-align: center;
-  margin: 4px;
+  border-bottom: 1vmin solid $hvid;
   .ikon {
-    padding: 3px;
-    padding-right: 8px;
-    margin: 10px;
+    padding: 1vmin;
+    margin: 1vmin;
+    margin-right: 5vmin;
+    padding-top: 1vmin;
     img {
-      height: 35px;
+      height: 6vmin;
     }
+  }
+}
+
+.code {
+  background-color: $hvid;
+  padding: 1vmin;
+  border-radius: 1vmin;
+  code {
+    font-size: 2.3vmin;
   }
 }
