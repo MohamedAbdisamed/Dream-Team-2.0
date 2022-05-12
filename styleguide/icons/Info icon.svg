@@ -1,0 +1,10 @@
+<svg id="Info_icon" data-name="Info icon" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Path_31" data-name="Path 31">
+    <path id="Path_76" data-name="Path 76" d="M27,0A27,27,0,1,1,0,27,27,27,0,0,1,27,0Z" fill="none"/>
+    <path id="Path_77" data-name="Path 77" d="M27,4a23.007,23.007,0,0,0-8.951,44.194,23.007,23.007,0,0,0,17.9-42.388A22.853,22.853,0,0,0,27,4m0-4A27,27,0,1,1,0,27,27,27,0,0,1,27,0Z" fill="#013c2b"/>
+  </g>
+  <g id="Group_68" data-name="Group 68" transform="translate(23.748 11.187)">
+    <path id="Path_28" data-name="Path 28" d="M33.3,22.634c-3.555.058-3.3,2.752-3.3,3.68V41.933c0,1.715,1.479,2.76,3.3,2.76s3.432-1.179,3.3-2.76V26.314C36.608,25.386,36.86,22.576,33.3,22.634Z" transform="translate(-29.998 -12.943)" fill="#013c2b"/>
+    <path id="Path_29" data-name="Path 29" d="M33.309,15.42h0a3.309,3.309,0,1,0,3.309,3.309A3.309,3.309,0,0,0,33.309,15.42Z" transform="translate(-29.995 -15.42)" fill="#013c2b"/>
+  </g>
+</svg>

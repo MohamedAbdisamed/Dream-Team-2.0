@@ -64,13 +64,13 @@ $sort: #212529; // sort
     font-size: 1.8vmin;
   }
 }
-@mixin boksColors($boksColor: black, $boksBackground: white, $boksText: Yellow) {
-  width: 40vmin;
-  margin: 1vmin;
+@mixin boksColors($boksBackground: white, $boksBorder: black, $boksText: Yellow) { 
   padding: 1.5vmin;
-  border: 0.5vmin solid $boksColor;
   background-color: $boksBackground;
   color: $boksText;
+  border-width: 1.5vmin 1.5vmin 0.4vmin 0.4vmin;
+  border-style: solid;
+  border-color: $boksBorder;
 }
 
 * {
@@ -97,7 +97,7 @@ $sort: #212529; // sort
 
 header {
   background-color: $black-green;
-  padding: 8vmin;
+  padding: 6vmin;
   text-align: left;
   font-size: 10vmin;
   color: $hvid;
@@ -122,11 +122,11 @@ nav {
       ul {
           list-style-type: none;
           padding: 1vmin;
-          margin-top: 5vmin;
+          margin-top: 2vmin;
           li {
               padding: 1vmin;
               a {
-                  padding: 2vmin 3vmin 2vmin 5vmin;
+                  padding: 1.6vmin;
                   text-decoration: none;
                   font-size: 3vmin;
                   color: $hvid;
@@ -136,16 +136,20 @@ nav {
       }
 }
   
-article {
-  margin-left: 38vmin; /* Same as the width of the sidenav */
-  font-size: 5vmin; /* Increased text to enable scrolling */
-  padding: 0vmin 2vmin;
+section {
+  margin-left: 30vmin; 
+  font-size: 5vmin; 
+  padding: 0vmin 1vmin;
   top: 40vmin;
   position: absolute;
   width: 165vmin;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  article {
+    width: 160vmin;
+    margin-left: 10vmin;
+  }
 }
 
 #Logoer {
@@ -402,26 +406,27 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   .rund-boks {
-    border-radius: 2vmin;
-    &-1 {
+    border-radius: 3vmin;
+    margin: 1vmin;
+    &-tyrkis {
       @extend .rund-boks;
-      @include boksColors($hvid, $black-tyrkis, $hvid);
+      @include boksColors($hvid, $dark-tyrkis ,$black-tyrkis);
     }
-    &-2 {
+    &-green {
       @extend .rund-boks;
-      @include boksColors($hvid, $black-green, $hvid);
+      @include boksColors($hvid, $dark-green, $black-green);
     }
-    &-3 {
+    &-blue {
       @extend .rund-boks;
-      @include boksColors($hvid, $black-blue, $hvid);
+      @include boksColors($hvid, $dark-blue, $black-blue);
     }
-    &-4 {
+    &-purple {
       @extend .rund-boks;
-      @include boksColors($hvid, $black-purple, $hvid);
+      @include boksColors($hvid, $dark-purple, $black-purple);
     }
-    &-5 {
+    &-pink {
       @extend .rund-boks;
-      @include boksColors($hvid, $black-pink, $hvid);
+      @include boksColors($hvid, $dark-pink, $black-pink);
     }
   }
 }
@@ -432,25 +437,26 @@ button {
   flex-wrap: wrap;
   .kant-boks {
     border-radius: 1vmin;
-    &-1 {
+    margin: 1vmin;
+    &-tyrkis {
       @extend .kant-boks;
-      @include boksColors($hvid, $black-tyrkis, $hvid);
+      @include boksColors($hvid, $dark-tyrkis, $black-tyrkis);
     }
-    &-2 {
+    &-green {
       @extend .kant-boks;
-      @include boksColors($hvid, $black-green, $hvid);
+      @include boksColors($hvid, $dark-green, $black-green);
     }
-    &-3 {
+    &-blue {
       @extend .kant-boks;
-      @include boksColors($hvid, $black-blue, $hvid);
+      @include boksColors($hvid, $dark-blue, $black-blue);
     }
-    &-4 {
+    &-purple {
       @extend .kant-boks;
-      @include boksColors($hvid, $black-purple, $hvid);
+      @include boksColors($hvid, $dark-purple, $black-purple);
     }
-    &-5 {
+    &-pink {
       @extend .kant-boks;
-      @include boksColors($hvid, $black-pink, $hvid);
+      @include boksColors($hvid, $dark-pink, $black-pink);
     }
   }
 }
@@ -465,6 +471,19 @@ button {
     }
     .sub-tekst p {
       font-size: 2vmin;
+    }
+  }
+}
+
+#Billeder {
+  display: flex;
+  flex-direction: column;
+  .img-gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    img {
+      height: 50vmin;
     }
   }
 }
@@ -549,4 +568,14 @@ form {
   code {
     font-size: 2.3vmin;
   }
+}
+.footer {
+  height: 10vmin;
+  width: 175vmin;
+  left: 0;
+  margin-left: 0;
+  background-color: $black-green;
+  color: $hvid;
+  text-align: center;
+  padding: 1vmin;
 }

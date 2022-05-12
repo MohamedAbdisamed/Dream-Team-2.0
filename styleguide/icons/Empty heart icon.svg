@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Empty_heart_icon" data-name="Empty heart icon" transform="translate(0.442)">
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(-0.442)" fill="none" stroke="#013c2b" stroke-width="4">
+      <circle cx="27" cy="27" r="27" stroke="none"/>
+      <circle cx="27" cy="27" r="25" fill="none"/>
+    </g>
+    <g id="Icons" transform="translate(12.049 13.96)">
+      <g id="Outlined">
+        <g id="Action">
+          <g id="Outlined-_-Action-_-favorite_border" data-name="Outlined-/-Action-/-favorite_border">
+            <g id="Group_55" data-name="Group 55">
+              <path id="Path" d="M0,0H30.88V28.675H0Z" fill="none" fill-rule="evenodd"/>
+              <path id="_-Icon-Color" data-name="🔹-Icon-Color" d="M24.388,3A9.2,9.2,0,0,0,17.44,6.266,9.2,9.2,0,0,0,10.492,3,8.461,8.461,0,0,0,2,11.6c0,5.9,5.25,10.719,13.2,18.032l2.239,2.047,2.239-2.063c7.952-7.3,13.2-12.11,13.2-18.017A8.461,8.461,0,0,0,24.388,3ZM17.595,27.3l-.154.156-.154-.156c-7.35-6.735-12.2-11.188-12.2-15.7a5.309,5.309,0,0,1,5.4-5.469A6.035,6.035,0,0,1,16,9.813h2.887a6,6,0,0,1,5.5-3.688,5.309,5.309,0,0,1,5.4,5.469C29.792,16.111,24.944,20.564,17.595,27.3Z" transform="translate(-2 -3)" fill="#013c2b" stroke="#013c2b" stroke-width="2" fill-rule="evenodd"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
