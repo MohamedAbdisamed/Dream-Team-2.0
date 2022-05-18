@@ -1,3 +1,12 @@
+<?php
+session_start();
+require("mysqlconnect.php");
+
+if (isset($_SESSION['id'])) {
+} else {
+    header('location: index.php');
+}
+?>
 <!doctype html>
 <html lang="en">
 
