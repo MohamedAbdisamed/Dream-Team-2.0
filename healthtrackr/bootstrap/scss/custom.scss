@@ -1,0 +1,80 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+#login {
+    background-image: url('../src/img/baggrund.svg');
+    background-size: cover;
+}
+
+#loginBtn {
+    background-color: #aa6070;
+}
+
+#logo {
+    background-color: #047758;
+    border: 0;
+    padding: 2vmin;
+    border-radius: 3vmin;
+}
+
+#glemt {
+    font-size: 3vmin;
+    opacity: 0.9;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 60vmin;
+    min-height: 30vmin;
+    width: 100%;
+    overflow: hidden;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+body {
+    padding-top: 5vmin;
+}
+
+header {
+    color: black;
+    height: 50vmin;
+}
+
+nav {
+    background-color: #047758;
+    color: white;
+}
+
+.card {
+    margin-top: 4vmin;
+}
