@@ -12,14 +12,14 @@
     <!-- Top Nav -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/User-icon.svg" alt=""></a>
+            <a class="navbar-brand" href="user.php"><img src="img/User-icon.svg" alt=""></a>
             <h1>Side titel</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><img src="img/Burger-menu-icon.svg" alt="">
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home <img src="img/Home-Icon.svg" alt=""></a>
+                        <a class="nav-link active" aria-current="page" href="home.php">Home <img src="img/Home-Icon.svg" alt=""></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Instillinger <img src="img/Settings-icon.svg" alt=""></a>
