@@ -5,7 +5,7 @@
 <meta charset='utf-8' />
   <title>Kalender </title>
  
-<link rel="stylesheet" href="kalender.css">
+<link rel="stylesheet" href="../kalender.css">
 <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.css' rel='stylesheet' />
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -28,8 +28,8 @@
         <div class="modal-body">
             <form> 
             <div class="mb-3">
-                <label for="message-text"  class="col-form-label">Beskrivelse:</label>
-                <textarea class="form-control" id="message-text"></textarea>
+                <label for="message" class="col-form-label">Beskrivelse:</label>
+                <textarea class="form-control" type="message" name="message" id="message"></textarea>
             </div>
             </form>
         </div>

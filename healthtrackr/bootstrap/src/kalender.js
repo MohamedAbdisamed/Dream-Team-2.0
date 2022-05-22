@@ -30,15 +30,25 @@ document.addEventListener('DOMContentLoaded', function () {
       selectable:true,
       select:function(start, end, allDays){
          $('#exampleModal').modal('toggle');
-         $('#btnSave').click(function(){
-          var message = $('#message-text').val();
-          var start_date = moment(start).format('YYYY-MM-DD');
-          var end_date = moment(end).format('YYYY-MM-DD');
-          console.log(message)
-          console.log(start_date + ' - ' + end_date)
+         $('#btnSave').on('click', function(){
+            var message = $('#message').val();
+            var start_date = moment(start).format('YYYY-MM-DD');
+            var end_date = moment(end).format('YYYY-MM-DD');
+           // console.log(start_date + ' - ' + end_date)
+            $.ajax({
+              url: "insert_todb.php",
+              type: "POST",
+              data: {
+                message: message,
+              }, 
+              success: function(){
+                console.log('success') 
+                console.log(message)						
+              }
+            });
          });
       }
-    
   });
   calendar.render();
 });
+ 
