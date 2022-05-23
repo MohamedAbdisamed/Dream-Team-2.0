@@ -12,11 +12,11 @@
     <!-- Bot Nav -->
     <nav class="navbar navbar-expand-lg fixed-bottom">
         <div class="container-fluid">
-            <a class="navbar-brand" href="home.php"><img src="img/Home-Icon.svg" alt=""></a>
-            <a class="navbar-brand" href="#"><img src="img/Chat-icon.svg" alt=""></a>
-            <a class="navbar-brand" href="programside.php"><img src="img/Workout-icon.svg" alt=""></a>
-            <a class="navbar-brand" href="#"><img src="img/Calender-icon.svg" alt=""></a>
-            <a class="navbar-brand" href="user.php"><img src="img/User-icon.svg" alt=""></a>
+            <a class="navbar-brand" href="home.php"><img src="../scss/img/icon/home-linje.svg" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../scss/img/icon/chat-linje.svg" alt=""></a>
+            <a class="navbar-brand" href="programside.php"><img src="../scss/img/icon/vægt-linje.svg" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../scss/img/icon/calender-linje.svg" alt=""></a>
+            <a class="navbar-brand" href="user.php"><img src="../scss/img/icon/profil-linje.svg" alt=""></a>
         </div>
     </nav>
 
