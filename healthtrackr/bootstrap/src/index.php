@@ -44,7 +44,7 @@
                                 </div>
 
                                 <div>
-                                    <p class="mb-0">Ny Bruger?<a href="#!" class="text-white-50 fw-bold">Opret Bruger</a>
+                                    <p class="mb-0">Ny Bruger?<a href="register.php" class="text-white-50 fw-bold">Opret Bruger</a>
                                     </p>
                                 </div>
                             </div>
