@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-image: url('../scss/img/bg-ly.png'); background-size: cover;">
     <!-- Top Nav -->
     <?php include 'topnav.php'; ?>
 
     <section>
         <!-- Indhold, Opstillet som 6 individuelle Card -->
-        <div class="row row-cols-1 row-cols-md-3 g-6" style="margin-bottom: 20vmin; margin-top: 10vmin;">
+        <div class="row row-cols-1 row-cols-md-3 g-6 m-2">
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <img src="img/profil-icon.svg" alt="">
+                        <span class="material-symbols-rounded" style="color: green;">
+                            person
+                        </span>
                         <h5 class="card-title">Oplysninger</h5>
                     </div>
                 </div>
@@ -28,7 +30,9 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <img src="img/Data-icon.svg" alt="">
+                        <span class="material-symbols-rounded" style="color: green;">
+                            bar_chart
+                        </span>
                         <h5 class="card-title">Data</h5>
                     </div>
                 </div>
@@ -36,7 +40,9 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <img src="img/Document-icon.svg" alt="">
+                        <span class="material-symbols-rounded" style="color: green;">
+                            description
+                        </span>
                         <h5 class="card-title">Journal</h5>
                     </div>
                 </div>
@@ -44,7 +50,9 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <img src="img/Settings-icon.svg" alt="">
+                        <span class="material-symbols-rounded" style="color: green;">
+                            settings
+                        </span>
                         <h5 class="card-title">Instillinger</h5>
                     </div>
                 </div>
@@ -52,7 +60,9 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <img src="img/Chat-icon.svg" alt="">
+                        <span class="material-symbols-rounded" style="color: green;">
+                            chat_bubble
+                        </span>
                         <h5 class="card-title">Beskeder</h5>
                     </div>
                 </div>
@@ -60,7 +70,9 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <img src="img/mini-Calender-icon.svg" alt="">
+                        <span class="material-symbols-rounded" style="color: green;">
+                            calendar_today
+                        </span>
                         <h5 class="card-title">Kalender</h5>
                     </div>
                 </div>

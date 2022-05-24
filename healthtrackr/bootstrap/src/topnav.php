@@ -10,27 +10,38 @@
 
 <body>
     <!-- Top Nav -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="user.php"><img src="../scss/img/icon/profil-linje.svg" alt=""></a>
-            <h1>Side titel</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><img src="../scss/img/icon/menu-linje.svg" alt="">
+            <a class="navbar-brand" href="user.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                    person
+                </span></a>
+            <h3>Side titel</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                    menu
+                </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.php">Home <img src="../scss/img/icon/home-linje.svg" alt=""></a>
+                        <a class="nav-link active" aria-current="page" href="home.php" style="color: white;">Home<span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                                home
+                            </span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Instillinger <img src="../scss/img/icon/instillinger-linje.svg" alt=""></a>
+                        <a class="nav-link" href="#" style="color: white;">Instillinger <span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                                settings
+                            </span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Information <img src="../scss/img/icon/info-linje.svg" alt=""></a>
+                        <a class="nav-link" href="#" style="color: white;">Information <span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                                info
+                            </span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <script type="module" src="./index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

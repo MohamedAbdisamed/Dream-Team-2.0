@@ -17,9 +17,10 @@ if (isset($_SESSION['id'])) {
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-image: url('../scss/img/bg-ly.png'); background-size: cover;">
     <!-- Top Nav -->
     <?php include 'topnav.php'; ?>
+
 
     <!-- 
         Header 
@@ -28,7 +29,7 @@ if (isset($_SESSION['id'])) {
     <header>
         <div class="overlay"></div>
 
-        <img src="img/Persona1.jpg" alt="">
+        <img src="../scss/img/Persona1.jpg" alt="">
 
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
@@ -47,7 +48,7 @@ if (isset($_SESSION['id'])) {
                     <div class="card-body">
                         <h5 class="card-title">Min Fysioterapeut</h5>
                     </div>
-                    <img src="img/amphand2.jpg" class="card-img-top" alt="...">
+                    <img src="../scss/img/amphand2.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
@@ -55,7 +56,7 @@ if (isset($_SESSION['id'])) {
                     <div class="card-body">
                         <h5 class="card-title">Min Træning</h5>
                     </div>
-                    <img src="img/amphand2.jpg" class="card-img-top" alt="...">
+                    <img src="../scss/img/amphand2.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
@@ -63,7 +64,7 @@ if (isset($_SESSION['id'])) {
                     <div class="card-body">
                         <h5 class="card-title">Min Kalender</h5>
                     </div>
-                    <img src="img/amphand2.jpg" class="card-img-top" alt="...">
+                    <img src="../scss/img/amphand2.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
@@ -71,7 +72,7 @@ if (isset($_SESSION['id'])) {
                     <div class="card-body">
                         <h5 class="card-title">Min Profil</h5>
                     </div>
-                    <img src="img/amphand2.jpg" class="card-img-top" alt="...">
+                    <img src="../scss/img/amphand2.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
         </div>

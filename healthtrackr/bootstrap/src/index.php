@@ -10,18 +10,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <!--  https://www.kodingmadesimple.com/2016/11/simple-bootstrap-login-form-with-validation-example.html  -->
+<!-- admin@mydomain.com -->
+
 <body>
     <section class="vh-100 gradient-custom">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-                    <div id="login" class="card text-white" style="border-radius: 1rem;">
+                    <div id="login" class="card text-white" style="border-radius: 1rem; background-image: url('../scss/img/baggrund.svg'); ">
 
                         <form id="login-form" method="post" action="login.php" role="form">
                             <div class="card-body p-5 text-center">
 
                                 <div class="mb-md-5 mt-md-4 pb-5">
-                                    <img id="logo" src="img/health_trackr_logo.png" class="img-thumbnail" alt="">
+                                    <img id="logo" src="../scss/img/health_trackr_logo.png" class="img-thumbnail" alt="">
                                     <br><br>
                                     <h2 class=" fw-bold mb-2 text-uppercase">Login</h2>
 
@@ -59,4 +61,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>

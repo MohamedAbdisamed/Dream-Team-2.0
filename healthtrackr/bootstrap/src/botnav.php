@@ -10,15 +10,26 @@
 
 <body>
     <!-- Bot Nav -->
-    <nav class="navbar navbar-expand-lg fixed-bottom">
+    <nav class="navbar navbar-expand-lg sticky-bottom" style="margin-top: 10px;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="home.php"><img src="../scss/img/icon/home-linje.svg" alt=""></a>
-            <a class="navbar-brand" href="#"><img src="../scss/img/icon/chat-linje.svg" alt=""></a>
-            <a class="navbar-brand" href="programside.php"><img src="../scss/img/icon/vægt-linje.svg" alt=""></a>
-            <a class="navbar-brand" href="#"><img src="../scss/img/icon/calender-linje.svg" alt=""></a>
-            <a class="navbar-brand" href="user.php"><img src="../scss/img/icon/profil-linje.svg" alt=""></a>
+            <a class="navbar-brand" href="home.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                    home
+                </span></a>
+            <a class="navbar-brand" href="#"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                    chat
+                </span></a>
+            <a class="navbar-brand" href="programcat.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                    fitness_center
+                </span></a>
+            <a class="navbar-brand" href="kalender.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                    calendar_month
+                </span></a>
+            <a class="navbar-brand" href="user.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
+                    person
+                </span></a>
         </div>
     </nav>
+
     <script src="footer.php"></script>
     <script type="module" src="./index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
