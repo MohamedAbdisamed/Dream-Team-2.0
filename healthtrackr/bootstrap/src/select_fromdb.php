@@ -1,0 +1,20 @@
+<?php 
+    include 'mysqlconnect.php'; 
+
+    
+$sql = "SELECT id, title, description, start, end FROM kalender ORDER BY start";
+$result = $conn->query($sql);
+
+$myArray = array();
+if ($result->num_rows > 0) {
+// output data of each row
+    while($row = $result->fetch_assoc()) {
+        $myArray[] = $row;
+    }
+} 
+else 
+{
+    echo "0 results";
+}
+echo json_encode($myArray);
+?>

@@ -28,8 +28,12 @@
         <div class="modal-body">
             <form> 
             <div class="mb-3">
-                <label for="message" class="col-form-label">Beskrivelse:</label>
-                <textarea class="form-control" type="message" name="message" id="message"></textarea>
+                <label for="title" class="col-form-label">Title:</label>
+                <input class="form-control" type="title" name="title" id="title"/>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="col-form-label">Beskrivelse:</label>
+                <textarea class="form-control" type="description" name="description" id="description"></textarea>
             </div>
             </form>
         </div>
