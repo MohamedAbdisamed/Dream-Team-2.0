@@ -1,5 +1,4 @@
-
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html lang="en">
 
 <head>
@@ -14,80 +13,89 @@
 <!--  https://designmodo.com/bootstrap-5-form/  -->
 
 <body>
+    <!-- Top Nav -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid align-items-center justify-content-center">
             <h1 id="titel">Opret Bruger</h1>
         </div>
     </nav>
     <br>
+    <!-- Opret bruger form (ligger inde i section) -->
     <section class="w-100 mt-5 mb-5">
         <div class="container align-items-center justify-content-center w-100">
-            <div class="progress mb-3">
-                <div class="progress-bar progress-bar-striped progress-bar-animated"></div>
-            </div>
-            <form action="./register.js" class="needs-validation" id="form-wrapper" method="post" name="form-wrapper" novalidate="">
-                <div class="question-container" id="quest-container">
-                    <div class="side" id="side-container">
-                        <h4 class="form-titel mb-3 mt-3">Kontakt Oplysninger</h4>
-                        <div class="mtt-1 mt-2">
-                            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Fornavn">
-                        </div>
-                        <div class="mtt-1 mt-2">
-                            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Efternavn">
-                        </div>
-                        <div class="mtt-1 mt-2">
-                            <input type="text" class="form-control" id="address" name="address" placeholder="Adresse">
-                        </div>
-                        <div class="mtt-1 mt-2">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                        </div>
-                        <div class="mtt-1 mt-2">
-                            <input type="tel" class="form-control" id="telephone" Telefon name="telephone" placeholder="Telefon">
-                        </div>
-                    </div>
-                    <div class="side" id="side-container">
-                        <h4 class="form-titel mb-3 mt-3">Personlige oplysninger</h4>
-                        <input type="number" class="form-control mt-2" id="height" name="height" placeholder="Højde (cm)">
-                        <input type="number" class="form-control mt-2" id="weight" name="weight" placeholder="Vægt (kg)">
-                        <input type="date" class="form-control mt-2" id="age" name="age" placeholder="Fødselsdag">
-                        <div class="radio m-1" style="display: flex;">
-                            <input type="radio" id="male" class="male m-2" name="male" value="Male">
-                            <label for="male">Mand</label><br>
-                            <input type="radio" id="female" class="female m-2" name="female" value="Female">
-                            <label for="female">Kvinde</label><br>
-                            <input type="radio" id="other" class="other m-2" name="other" value="Other">
-                            <label for="other">Andet</label><br><br>
-                        </div>
-                    </div>
-                    <div id="success">
-                        <div class="mt-5">
-                            <h4>Bruger Oprettet</h4>
-                            <a class="back-link" href="home.php">Gå videre til appen➜</a>
-                        </div>
-                    </div>
+
+            <form action="create.php" method="post">
+                <div class="col-lg-6 m-2">
+                    <input type="text" placeholder="Fornavn" name="first_name" id="first_name" class="form-control" autocomplete="off" required>
                 </div>
-                <div id="question-container__buttons">
-                    <button id="prev-btn" type="button">Forrige</button>
-                    <button id="next-btn" type="button">Næste</button>
-                    <button id="submit-btn" type="submit">Opret</button>
+
+                <div class="col-lg-6 m-2">
+                    <input type="text" placeholder="Efternavn" name="last_name" id="last_name" class="form-control" autocomplete="off" required>
+                </div>
+
+                <div class="col-lg-6 m-2">
+                    <input type="text" placeholder="Email" name="email" id="email" class="form-control" autocomplete="off" required>
+                </div>
+
+                <div class="col-lg-6 m-2">
+                    <input type="password" placeholder="Adgangskode" name="password" id="password" class="form-control" autocomplete="off" required>
+                </div>
+
+                <div class="col-lg-6 m-2">
+                    <input type="text" placeholder="Telefon" name="telefone" id="telefone" class="form-control" autocomplete="off" required>
+                </div>
+
+                <div class="col-lg-6 m-2">
+                    <input type="text" placeholder="Addresse" name="address" id="address" class="form-control" autocomplete="off" required>
+                </div>
+
+                <div class="col-lg-2 m-2">
+                    <input type="number" placeholder="Højde (cm)" name="height" id="height" class="form-control" required>
+                </div>
+
+                <div class="col-lg-2 m-2">
+                    <input type="number" placeholder="Vægt (kg)" name="weight" id="weight" class="form-control" required>
+                </div>
+
+                <div class="col-lg-2 m-2">
+                    <input type="number" placeholder="Alder" name="age" id="age" class="form-control" required>
+                </div>
+
+                <div class="col-lg-6 m-2" id="radio" style="display: flex;">
+                    <select name="level" id="levevl">
+                        <option value="basalt">Basalt</option>
+                        <option value="avanceret">Avanceret</option>
+                        <option value="specialiseret">Specialiseret</option>
+                        <option value="rehabilitering">Rehabilitering</option>
+                        <option value="unknown">Ved ikke</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-6 m-2" style="display: flex;">
+                    <select name="gender" id="gender">
+                        <option value="female">Kvinde</option>
+                        <option value="male">Mand</option>
+                        <option value="other">Andet</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-10 cool-lg-offset-2 m-2">
+                    <input type="submit" name="submit" id="submit" value="Submit">
                 </div>
             </form>
         </div>
-        <div id="preloader-wrapper">
-            <div id="preloader"></div>
-            <div class="preloader-section section-left"></div>
-            <div class="preloader-section section-right"></div>
-        </div>
 
-        <!-- Bot Nav -->
-        <nav class="navbar navbar-expand-lg fixed-bottom">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="home.php"></a>
-            </div>
-        </nav>
     </section>
 
-    <script type="module" src="./register.js"></script>
+    <!-- Bot Nav -->
+    <nav class="navbar navbar-expand-lg fixed-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.php"></a>
+        </div>
+    </nav>
+
+    <script>
+    </script>
     <script type="module" src="./index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
