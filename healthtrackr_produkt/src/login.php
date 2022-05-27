@@ -26,10 +26,11 @@ if (isset($_POST['submit'])) {
         $_SESSION["first_Name"] = $row['first_Name'];
         $_SESSION["last_Name"] = $row['last_Name'];
         header("Location: home.php");
-    } else {
-        echo "Invalid Email ID/Password";
+    } else if (isset($_GET['err'])) { ?>
+                                        <div class="alert alert-danger text-center"><?php echo "Kunne ikke logge ind. Forkert email eller password"; ?></div>
+                                    <?php } 
     }
-}
+
 /* første kode, brugt da det skulle tjekkes op mod local database. 
     // Opretter forbindelsen til server/databasen
     $con = mysqli_connect("localhost", "root", "", "bt_demo") or die("Error " . mysqli_error($con));

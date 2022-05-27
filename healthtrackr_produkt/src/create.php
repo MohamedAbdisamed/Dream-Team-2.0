@@ -24,7 +24,7 @@ $last_name = $_REQUEST['last_name'];
 $address = $_REQUEST['address'];
 $email = $_REQUEST['email'];
 $telefone = $_REQUEST['telefone'];
-$password = $_REQUEST['password'];
+$password = $_REQUEST['pass'];
 
 // Her laves der en insert query hændelse, sender/indsætter form data til database tabel, Users, vi specificere hvor hvad skal sættes ind. 
 // Dette er til tabellen Users, hvori vi arbejder med de kolloner der er nævnt i første ()
