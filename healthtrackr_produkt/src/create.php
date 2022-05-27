@@ -32,14 +32,14 @@ $sql = "INSERT INTO Users (first_name, last_name, email, telefone, address, pass
 
 //En if else statement, brugt til at tjekke om der blev sendt noget til database, eller om der var nogen fejl. Brugt for at tjekke specefikt om alt indhold bliver indsat, og om det bliver insadt korrekt. Hvis det ikke bliver indsat giver den brugeren besked om der er fejl, og hvilken fejl det er.
 if (mysqli_query($conn, $sql)) {
-    echo "<h3>data stored in a database successfully."
-        . " Please browse your localhost php my admin"
-        . " to view the updated data</h3>";
+    echo 
+    "<h3>Bruger Oprettet</h3>
+    <p>Du vil blive transporteret til Login siden om lidt</p>";
 
-    echo nl2br("\n$first_name\n $last_name\n "
-        . "$telephone\n $address\n $email");
+    header("refresh:90;url=index.php");
+
 } else {
-    echo "ERROR: Hush! Sorry $sql. "
+    echo "ERROR: Fejl, data ikke sendt. $sql. "
         . mysqli_error($conn);
 }
 
