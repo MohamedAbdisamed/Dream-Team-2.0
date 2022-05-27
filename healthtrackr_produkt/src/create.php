@@ -10,7 +10,7 @@ $pass = "rJKfi5M9kk";
 // username => root
 // password => empty
 // database name => staff
-$conn = mysqli_connect("sql11.freesqldatabase.co", "sql11495034", "rJKfi5M9kk", "sql11495034");
+$conn = mysqli_connect("mysql90.unoeuro.com", "uclhealthtrackr_dk", "ptEF2fHwrbhm", "uclhealthtrackr_dk_db");
 
 // tjekker om der er forbindelse til server/database. Hvis ikke skal den exit og give beskeden "ERROR: Could not connect." Gør brug af mysqli command, som giver beskrivelse af sidste connection fejl. 
 if ($conn === false) {

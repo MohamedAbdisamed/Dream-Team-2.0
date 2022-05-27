@@ -11,7 +11,7 @@ $pass = "rJKfi5M9kk";
 // username => root
 // password => empty
 // database name => staff
-$conn = mysqli_connect("sql11.freesqldatabase.co", "sql11495034", "rJKfi5M9kk", "sql11495034");
+$conn = mysqli_connect("mysql90.unoeuro.com", "uclhealthtrackr_dk", "ptEF2fHwrbhm", "uclhealthtrackr_dk_db");
 
 //starter session, hvis der trykkes submit. Heri ligger der nogle ting der bliver tjekket, i dette tilfælde bliver email og password tjekket, her er det om de 2 eksistere sammen til samme bruger(id). Hvis ja oprettes section og sender brugeren videre til produktets forside. Denne session skal også kontroller had der ses på kalenderen, da kalender indhold er bruger specifikt. 
 session_start();
