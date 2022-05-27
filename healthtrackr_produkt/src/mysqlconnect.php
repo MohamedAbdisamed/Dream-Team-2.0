@@ -1,10 +1,10 @@
 <?php
 
 // server / database information 
-$databaseName = "sql11495034";
-$serverName = "sql11.freesqldatabase.com";
-$userName = "sql11495034";
-$pass = "rJKfi5M9kk";
+$databaseName = "uclhealthtrackr_dk_db";
+$serverName = "mysql90.unoeuro.com";
+$userName = "uclhealthtrackr_dk";
+$pass = "ptEF2fHwrbhm";
 
 
 // connecter til vores server/database. 

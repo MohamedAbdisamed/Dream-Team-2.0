@@ -11,7 +11,7 @@ $pass = "rJKfi5M9kk";
 // username => root
 // password => empty
 // database name => staff
-$conn = mysqli_connect("sql11.freesqldatabase.co", "sql11495034", "rJKfi5M9kk", "sql11495034");
+$conn = mysqli_connect("mysql90.unoeuro.com", "uclhealthtrackr_dk", "ptEF2fHwrbhm", "uclhealthtrackr_dk_db");
 
 //starter session, hvis der trykkes submit. Heri ligger der nogle ting der bliver tjekket, i dette tilfælde bliver email og password tjekket, her er det om de 2 eksistere sammen til samme bruger(id). Hvis ja oprettes section og sender brugeren videre til produktets forside. Denne session skal også kontroller had der ses på kalenderen, da kalender indhold er bruger specifikt. 
 session_start();
@@ -26,10 +26,11 @@ if (isset($_POST['submit'])) {
         $_SESSION["first_Name"] = $row['first_Name'];
         $_SESSION["last_Name"] = $row['last_Name'];
         header("Location: home.php");
-    } else {
-        echo "Invalid Email ID/Password";
+    } else if (isset($_GET['err'])) { ?>
+                                        <div class="alert alert-danger text-center"><?php echo "Kunne ikke logge ind. Forkert email eller password"; ?></div>
+                                    <?php } 
     }
-}
+
 /* første kode, brugt da det skulle tjekkes op mod local database. 
     // Opretter forbindelsen til server/databasen
     $con = mysqli_connect("localhost", "root", "", "bt_demo") or die("Error " . mysqli_error($con));
