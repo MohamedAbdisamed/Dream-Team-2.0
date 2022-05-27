@@ -79,7 +79,7 @@
         </div>
     </div>
     <!-- Top Nav -->
-    <?php include 'topnav.php'; ?>
+    <?php include 'botnav.php'; ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
