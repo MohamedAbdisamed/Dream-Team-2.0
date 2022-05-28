@@ -24,7 +24,7 @@
                                     <br><br>
                                     <h2 class=" fw-bold mb-2 text-uppercase">Login</h2>
                                     <?php if (isset($_GET['err'])) { ?>
-                                        <div class="alert alert-danger text-center"><?php echo "Login failed! Invalid email-id or password!"; ?></div>
+                                        <div class="alert alert-danger text-center"><?php echo "Kunne ikke logge ind. Forkert email eller password."; ?></div>
                                     <?php } ?>
                                     <div class="form-outline form-white mb-4">
                                         <input type="email" id="typeEmailX" required class="form-control form-control-lg" placeholder="Email" name="email" />
