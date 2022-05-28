@@ -1,12 +1,5 @@
 <?php
-session_start();
-require("mysqlconnect.php");
-
-if (isset($_SESSION['id'])) {
-} else {
-    header('location: index.php');
-}
-?>
+ ?>
 <!doctype html>
 <html lang="en">
 
@@ -16,21 +9,16 @@ if (isset($_SESSION['id'])) {
     <link rel="stylesheet" href="../scss/custom.scss">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-
 <body style="background-image: url('../scss/img/bg-ly.png'); background-size: cover;">
     <!-- Top Nav -->
     <?php include 'topnav.php'; ?>
-
-
     <!-- 
         Header 
         https://startbootstrap.com/snippets/video-header 
     -->
     <header>
         <div class="overlay"></div>
-
         <img src="../scss/img/Persona1.jpg" alt="">
-
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
@@ -76,7 +64,6 @@ if (isset($_SESSION['id'])) {
                 </div>
             </div>
         </div>
-
         <!-- Bot Nav -->
         <?php include 'botnav.php'; ?>
 

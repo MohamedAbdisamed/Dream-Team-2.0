@@ -4,7 +4,7 @@
     
 $sql = "SELECT id, title, description, start, end FROM kalender ORDER BY start";
 $result = $conn->query($sql);
-
+//echo $result;
 $myArray = array();
 if ($result->num_rows > 0) {
 // output data of each row

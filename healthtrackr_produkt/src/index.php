@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,33 +17,24 @@
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                     <div id="login" class="card text-white" style="border-radius: 1rem; background-image: url('../scss/img/baggrund.svg'); ">
-
                         <form id="login-form" method="post" action="login.php" role="form">
                             <div class="card-body p-5 text-center">
-
                                 <div class="mb-md-5 mt-md-4 pb-5">
                                     <img id="logo" src="../scss/img/health_trackr_logo.png" class="img-thumbnail" alt="">
                                     <br><br>
                                     <h2 class=" fw-bold mb-2 text-uppercase">Login</h2>
-
                                     <?php if (isset($_GET['err'])) { ?>
-                                        <div class="alert alert-danger text-center"><?php echo "Kunne ikke logge ind. Forkert email eller password"; ?></div>
+                                        <div class="alert alert-danger text-center"><?php echo "Login failed! Invalid email-id or password!"; ?></div>
                                     <?php } ?>
-
                                     <div class="form-outline form-white mb-4">
                                         <input type="email" id="typeEmailX" required class="form-control form-control-lg" placeholder="Email" name="email" />
                                     </div>
-
                                     <div class="form-outline form-white mb-4">
                                         <input type="password" id="typePasswordX" required class="form-control form-control-lg" placeholder="Password" name="password" />
                                     </div>
-
                                     <p id="glemt" class="small mb-5 pb-lg-2"><a class="text-white" href="#!">Glemt Kodeord</a></p>
-
                                     <button id="loginBtn" class="btn btn-outline-light btn-lg px-5" type="submit" name="submit" name="submit">Login</button>
-
                                 </div>
-
                                 <div>
                                     <p class="mb-0">Ny Bruger?<a href="register.php" class="text-white-50 fw-bold">Opret Bruger</a>
                                     </p>
