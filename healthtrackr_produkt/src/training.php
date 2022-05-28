@@ -12,33 +12,33 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body style="background-image: url('../scss/img/bg-ly.png'); background-size: cover;">
    <div class="container">
        <div class="row">
            <div class="col-12 pt-2">
-               <h1>trænings programmer</h1>
+               <h1>Trænings programmer</h1>
            </div>
            <div class="col-12 pt-2">
                <button class="pt-1 pb-1 pr-2 pl-2 borde border rounded">Knæ</button>
            </div>
            <div class="col-12 pt-2">
-               <h1>anbefalet</h1>
+               <h1>Anbefalet</h1>
            </div>
        </div>
        <div class="row pt-2">
         <div class="col-4">
-            <a href="">
-                <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+            <a href="programside-2.php">
+                <img class="img-fluid border rounded" src="../scss/img/træning-2.JPG" alt="">
             </a>
         </div>
         <div class="col-4">
-            <a href="">
-                <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+            <a href="programside-3.php">
+                <img class="img-fluid border rounded" src="../scss/img/træning-3.JPG" alt="">
             </a>
         </div>
         <div class="col-4">
-            <a href="">
-                <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+            <a href="programside-4.php">
+                <img class="img-fluid border rounded" src="../scss/img/træning-4.JPG" alt="">
             </a>
         </div>
         <hr class="pt-5 pb-5">
@@ -46,17 +46,17 @@
         <div class="row pt-3">
             <div class="col-4">
                 <a href="">
-                    <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <img class="img-fluid border rounded" src="../scss/img/træning-5.JPG" alt="">
                 </a>
             </div>
             <div class="col-4">
                 <a href="">
-                    <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <img class="img-fluid border rounded" src="../scss/img/træning-6.JPG" alt="">
                 </a>
             </div>
             <div class="col-4">
                 <a href="">
-                    <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <img class="img-fluid border rounded" src="../scss/img/træning-7.JPG" alt="">
                 </a>
             </div>
         </div>
@@ -64,6 +64,10 @@
    </div>
     <!-- Top Nav -->
     <?php include 'topnav.php'; ?>
+    <script>
+        let h1 = document.getElementById('titel');
+        h1.innerHTML = "Træning";
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
