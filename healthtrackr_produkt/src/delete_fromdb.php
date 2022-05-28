@@ -1,7 +1,7 @@
 <?php 
     include 'mysqlconnect.php'; 
     if(isset($_POST['id'])){
-        $sql = "DELETE FROM Kalender WHERE id=:id";
+        $sql = "DELETE FROM kalender WHERE id=:id";
         $statement = $conn->prepare($sql);
         $statement->execute(
             array(
