@@ -1,4 +1,5 @@
 <?php
+session_start();
  ?>
 <!doctype html>
 <html lang="en">
@@ -18,11 +19,11 @@
     -->
     <header>
         <div class="overlay"></div>
-        <img src="../scss/img/Persona1.jpg" alt="">
+        <img src="../scss/img/profil.jpg" alt="Bruger profil billed">
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
-                    <h1 class="display-4">Hej brugernavn</h1>
+                    <h1 class="display-4">Hej <?php echo $_SESSION['first_name']; ?></h1>
                 </div>
             </div>
         </div>
@@ -36,7 +37,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Min Fysioterapeut</h5>
                     </div>
-                    <img src="../scss/img/amphand2.jpg" class="card-img-top" alt="...">
+                    <img src="../scss/img/fys.JPG" class="card-img-top" alt="Billed af fysioterapeut med borger.">
                 </div>
             </div>
             <div class="col">
@@ -44,7 +45,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Min Træning</h5>
                     </div>
-                    <img src="../scss/img/amphand2.jpg" class="card-img-top" alt="...">
+                    <img src="../scss/img/træning-5.jpg" class="card-img-top" alt="Billed af træning fra træningsprogram.">
                 </div>
             </div>
             <div class="col">
@@ -52,7 +53,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Min Kalender</h5>
                     </div>
-                    <img src="../scss/img/amphand2.jpg" class="card-img-top" alt="...">
+                    <img src="../scss/img/calender.png" class="card-img-top" alt="Billed af en kalender">
                 </div>
             </div>
             <div class="col">
@@ -60,7 +61,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Min Profil</h5>
                     </div>
-                    <img src="../scss/img/amphand2.jpg" class="card-img-top" alt="...">
+                    <img src="../scss/img/profil.jpg" class="card-img-top" alt="Profil billed">
                 </div>
             </div>
         </div>
