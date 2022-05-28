@@ -16,7 +16,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
 
 </head>
-<body>
+<body style="background-image: url('../scss/img/bg-ly.png'); background-size: cover;">
 <?php include 'topnav.php'; ?>
   <div id='calendar'></div>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -47,6 +47,10 @@
     </div>
     
     <?php include 'botnav.php'; ?>
+    <script>
+        let h1 = document.getElementById('titel');
+        h1.innerHTML = "Kalender";
+    </script>
 </body>
 <script src="kalender.js"> </script>
   
