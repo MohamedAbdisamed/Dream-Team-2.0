@@ -14,9 +14,6 @@ if (isset($_POST['submit'])) {
    $count = mysqli_num_rows($result);
     
    if($count == 1) {
-      $logged_in = mysqli_fetch_assoc($results);
-      $_SESSION['id'] = $logged_in['id'];
-      $_SESSION['first_name'] = $logged_in['first_name'];
      header("Location: home.php");
    }else {
       echo 'error';

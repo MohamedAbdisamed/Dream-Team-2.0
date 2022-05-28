@@ -1,5 +1,4 @@
 <?php
-session_start();
  ?>
 <!doctype html>
 <html lang="en">
@@ -23,7 +22,7 @@ session_start();
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
-                    <h1 class="display-4">Hej <?php echo $_SESSION['first_name']; ?></h1>
+                    <h1 class="display-4">Hej brugernavn</h1>
                 </div>
             </div>
         </div>

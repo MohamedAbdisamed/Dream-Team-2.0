@@ -12,10 +12,11 @@
     <!-- Top Nav -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
+            
+            <h3>Side titel</h3>
             <a class="navbar-brand" href="user.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
                     person
                 </span></a>
-            <h3>Side titel</h3>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
                     menu
                 </span>
