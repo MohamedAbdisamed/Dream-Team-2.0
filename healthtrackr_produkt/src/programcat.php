@@ -73,38 +73,18 @@
                     <h3>anbefalet</h3>
                 </div>
                 <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <a href="programside-1.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-1.JPG" alt="">
                     </a>
                 </div>
                 <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <a href="programside-2.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-2.JPG" alt="">
                     </a>
                 </div>
                 <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="row pt-4">
-                <div class="col-12 pb-2">
-                    <h3>anbefalet</h3>
-                </div>
-                <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <a href="programside-3.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-3.JPG" alt="">
                     </a>
                 </div>
             </div>
@@ -113,18 +93,18 @@
                     <h3>anbefalet</h3>
                 </div>
                 <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <a href="programside-4.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-4.JPG" alt="">
                     </a>
                 </div>
                 <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <a href="programside.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-7.JPG" alt="">
                     </a>
                 </div>
                 <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <a href="programside-3.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-3.JPG" alt="">
                     </a>
                 </div>
             </div>
@@ -133,18 +113,38 @@
                     <h3>anbefalet</h3>
                 </div>
                 <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <a href="programside-2.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-2.JPG" alt="">
                     </a>
                 </div>
                 <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <a href="programside.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-6.JPG" alt="">
                     </a>
                 </div>
                 <div class="col-4">
-                    <a href="">
-                        <img class="img-fluid border rounded" src="http://placehold.jp/500x500.png" alt="">
+                    <a href="programside-1.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-1.JPG" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-12 pb-2">
+                    <h3>anbefalet</h3>
+                </div>
+                <div class="col-4">
+                    <a href="programside-4.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-4.JPG" alt="">
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="programside.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-7.JPG" alt="">
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="programside.php">
+                        <img class="img-fluid border rounded" src="../scss/img/træning-5.JPG" alt="">
                     </a>
                 </div>
             </div>
@@ -152,6 +152,10 @@
     </section>
     <!-- Bot Nav -->
     <?php include 'botnav.php'; ?>
+    <script>
+        let h1 = document.getElementById('titel');
+        h1.innerHTML = "Træning";
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
