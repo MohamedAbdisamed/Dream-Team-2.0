@@ -13,19 +13,19 @@
     <nav class="navbar navbar-expand-lg sticky-bottom" style="margin-top: 10px;">
         <div class="container-fluid">
             <a class="navbar-brand" href="home.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
-                    home
+                    Hjem
                 </span></a>
             <a class="navbar-brand" href="#"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
                     chat
                 </span></a>
             <a class="navbar-brand" href="programcat.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
-                    fitness_center
+                    Trænings øvelser
                 </span></a>
             <a class="navbar-brand" href="kalender.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
-                    calendar_month
+                    Kalender
                 </span></a>
             <a class="navbar-brand" href="user.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
-                    person
+                    Min profil
                 </span></a>
         </div>
     </nav>
