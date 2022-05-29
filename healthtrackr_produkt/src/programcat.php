@@ -18,10 +18,9 @@
     <?php include 'topnav.php'; ?>
 
     <section>
-        <div class="container mb-3">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8 pt-2 mt-2">
+        <div class="container mb-3 mt-50">
+            <div class="row"> 
+                <div class="col-12 pt-2 mt-2">
                     <div class="input-group input-group-sm mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text material-icons material-symbols-outlined" id="inputGroup-sizing-sm">search</span>
@@ -33,7 +32,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h1>kategorier</h1>
+                    <h1>Kategorier</h1>
                 </div>
             </div>
             <div class="row pt-2">
@@ -70,7 +69,7 @@
             </div>
             <div class="row pt-4">
                 <div class="col-12 pb-2">
-                    <h3>anbefalet</h3>
+                    <h3>Anbefalet</h3>
                 </div>
                 <div class="col-4">
                     <a href="programside-1.php">
@@ -90,7 +89,7 @@
             </div>
             <div class="row pt-4">
                 <div class="col-12 pb-2">
-                    <h3>anbefalet</h3>
+                    <h3>Anbefalet</h3>
                 </div>
                 <div class="col-4">
                     <a href="programside-4.php">
@@ -110,7 +109,7 @@
             </div>
             <div class="row pt-4">
                 <div class="col-12 pb-2">
-                    <h3>anbefalet</h3>
+                    <h3>Anbefalet</h3>
                 </div>
                 <div class="col-4">
                     <a href="programside-2.php">
@@ -130,7 +129,7 @@
             </div>
             <div class="row pt-4">
                 <div class="col-12 pb-2">
-                    <h3>anbefalet</h3>
+                    <h3>Anbefalet</h3>
                 </div>
                 <div class="col-4">
                     <a href="programside-4.php">

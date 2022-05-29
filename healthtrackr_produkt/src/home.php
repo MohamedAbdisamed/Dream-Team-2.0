@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../scss/custom.scss">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Hjem</title>
 </head>
+
 <body style="background-image: url('../scss/img/bg-ly.png'); background-size: cover;">
     <!-- Top Nav -->
     <?php include 'topnav.php'; ?>
@@ -35,15 +37,9 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quidem quibusdam earum vero natus, eveniet ratione in delectus! Magnam suscipit itaque illo iusto quo! Blanditiis rem amet nihil repudiandae sint.</p>
             </div>
         <!-- Indhold, Opstillet som 4 individuelle Card -->
-        <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-               <!-- <div class="card">
-                    <div class="card-body">
-                        <a href="programcat.php"> <h5 class="card-title">Min Fysioterapeut</h5></a>
-                    </div>
-                    <img src="../scss/img/fys.JPG" class="card-img-top" alt="Billed af fysioterapeut med borger.">
-                </div> -->
-                <div class="card" style="width: 18rem;">
+        <div class="row row-cols-1 row-cols-md-2 g-3 mb-5">
+            <div class="col"> 
+                <div class="card h-100 ">
                     <div class="text-center pt-2">
                         <a href="programcat.php"> <h5 class="card-title">Min Fysioterapeut</h5></a>
                     </div>
@@ -54,7 +50,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card h-100">
                     <div class="text-center pt-2">
                     <a href="programcat.php"> <h5 class="card-title">Min Træning</h5></a>
                     </div>
@@ -65,33 +61,31 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                       <a href="kalender.php"> <h5 class="card-title">Min Kalender</h5></a>
+                <div class="card h-100">
+                    <div class="text-center pt-2">
+                    <a href="kalender.php"> <h5>Min Kalender</h5></a>
                     </div>
                     <img src="../scss/img/calender.png" class="card-img-top" alt="Billed af en kalender">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-           
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-3" style="margin-bottom: 15vmin;">
             <div class="col">
-            <div class="card">
-                    <div class="card-body">
-                       <a href="user.php"> <h5 class="card-title">Min Profil</h5></a>
+                <div class="card h-100" >
+                    <div class="text-center pt-2">
+                    <a href="user.php"> <h5 class="card-title">Min Profil</h5></a>
                     </div>
                     <img src="../scss/img/profil.jpg" class="card-img-top" alt="Profil billed">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col">
-               
-            </div>
-            <div class="col">
-               
-            </div>
-            <div class="col">
-              
-            </div>
+            <div class="col"> </div>
+            <div class="col"> </div>
         </div>
     </div>
         <!-- Bot Nav -->

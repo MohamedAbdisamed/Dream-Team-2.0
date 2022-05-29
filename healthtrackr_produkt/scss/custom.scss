@@ -84,3 +84,21 @@ link {
     color: white;
 }
 
+.card-img-top{ 
+    height: 15vw;
+    object-fit: cover;
+}
+a{
+    text-decoration: none; 
+}
+h5, h6{ 
+    color:black;
+}
+h5:hover,h6:hover {
+    color:green;
+}
+
+button#dropdownMenuButton{
+    border: 1px solid white;
+    background-color: #628A5F; 
+}

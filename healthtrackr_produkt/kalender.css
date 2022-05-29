@@ -103,9 +103,13 @@
   .next-date {
     opacity: 0.5;
   }
+
+  .fc-daygrid-day.fc-day.fc-day-sun.fc-day-today {
+    background-color: #8CC588;
+  }
   
   .today {
-    background-color: #00454E;
+    background-color: #628A5F;
     color: #eee;
   }
   html, body {
@@ -120,8 +124,8 @@
   }
 
   .fc-next-button.btn.btn-primary, .fc-prev-button.btn.btn-primary{
-      background-color: green!important;
-      border-color: green!important;
+      background-color: #628A5F!important;
+      border-color: #628A5F!important;
   }
   .fc-toolbar-title{
       text-transform: capitalize;
