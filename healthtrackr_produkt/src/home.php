@@ -22,48 +22,78 @@
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
-                    <h1 class="display-4">Hej brugernavn</h1>
+                    <h1 class="display-4">Hej Jytte</h1>
                 </div>
             </div>
         </div>
     </header>
 
     <section>
+        <div class="container">
+            <div class="text-center m-5">
+                <h2> Title </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quidem quibusdam earum vero natus, eveniet ratione in delectus! Magnam suscipit itaque illo iusto quo! Blanditiis rem amet nihil repudiandae sint.</p>
+            </div>
         <!-- Indhold, Opstillet som 4 individuelle Card -->
-        <div class="row row-cols-1 row-cols-md-2 g-4" style="margin-bottom: 15vmin;">
+        <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-                <div class="card">
+               <!-- <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Min Fysioterapeut</h5>
+                        <a href="programcat.php"> <h5 class="card-title">Min Fysioterapeut</h5></a>
                     </div>
                     <img src="../scss/img/fys.JPG" class="card-img-top" alt="Billed af fysioterapeut med borger.">
+                </div> -->
+                <div class="card" style="width: 18rem;">
+                    <div class="text-center pt-2">
+                        <a href="programcat.php"> <h5 class="card-title">Min Fysioterapeut</h5></a>
+                    </div>
+                    <img src="../scss/img/fys.JPG" class="card-img-top" alt="Billed af fysioterapeut med borger.">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Min Træning</h5>
+                <div class="card" style="width: 18rem;">
+                    <div class="text-center pt-2">
+                    <a href="programcat.php"> <h5 class="card-title">Min Træning</h5></a>
                     </div>
                     <img src="../scss/img/træning-5.jpg" class="card-img-top" alt="Billed af træning fra træningsprogram.">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Min Kalender</h5>
+                       <a href="kalender.php"> <h5 class="card-title">Min Kalender</h5></a>
                     </div>
                     <img src="../scss/img/calender.png" class="card-img-top" alt="Billed af en kalender">
                 </div>
             </div>
+           
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-3" style="margin-bottom: 15vmin;">
             <div class="col">
-                <div class="card">
+            <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Min Profil</h5>
+                       <a href="user.php"> <h5 class="card-title">Min Profil</h5></a>
                     </div>
                     <img src="../scss/img/profil.jpg" class="card-img-top" alt="Profil billed">
                 </div>
             </div>
+            <div class="col">
+               
+            </div>
+            <div class="col">
+               
+            </div>
+            <div class="col">
+              
+            </div>
         </div>
+    </div>
         <!-- Bot Nav -->
         <?php include 'botnav.php'; ?>
 

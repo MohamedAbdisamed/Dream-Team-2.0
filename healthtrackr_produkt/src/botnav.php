@@ -10,23 +10,33 @@
 
 <body>
     <!-- Bot Nav -->
-    <nav class="navbar navbar-expand-lg sticky-bottom" style="margin-top: 10px;">
+    <nav class="navbar navbar-expand-lg sticky-bottom" style="margin-top: 10px; background-color:#F2F1ED">
         <div class="container-fluid">
-            <a class="navbar-brand" href="home.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
-                    Hjem
-                </span></a>
-            <a class="navbar-brand" href="#"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
-                    chat
-                </span></a>
-            <a class="navbar-brand" href="programcat.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
-                    Trænings øvelser
-                </span></a>
-            <a class="navbar-brand" href="kalender.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
-                    Kalender
-                </span></a>
-            <a class="navbar-brand" href="user.php"><span class="material-symbols-rounded" style="color: white; border: 3px solid white; border-radius: 20px; padding: 5px;">
-                    Min profil
-                </span></a>
+            <a class="navbar-brand" href="home.php">
+                <span class="material-symbols-rounded" style="color: white; padding: 5px;">
+                    <img src="../scss/img/nav-icons/home-icon.png" />
+                </span>
+            </a>
+            <a class="navbar-brand" href="#">
+                <span class="material-symbols-rounded" style="color: white; padding: 5px;">
+                    <img src="../scss/img/nav-icons/chat-icon.png" />
+                </span>
+            </a>
+            <a class="navbar-brand" href="programcat.php">
+                <span class="material-symbols-rounded" style="color: white; padding: 5px;">
+                    <img src="../scss/img/nav-icons/workout-icon.png" />
+                </span>
+            </a>
+            <a class="navbar-brand" href="kalender.php">
+                <span class="material-symbols-rounded" style="color: white;padding: 5px;">
+                    <img src="../scss/img/nav-icons/calender-icon.png" />
+                </span>
+            </a>
+            <a class="navbar-brand" href="user.php">
+                <span class="material-symbols-rounded" style="color: white; padding: 5px;">
+                    <img src="../scss/img/nav-icons/user-icon.png" />
+                </span>
+            </a>
         </div>
     </nav>
 
