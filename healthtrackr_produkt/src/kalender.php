@@ -11,7 +11,8 @@
 <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet'>
 <link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css' rel='stylesheet'>
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.min.js'></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
 
 </head>
 <body style="background-image: url('../scss/img/bg-ly.png'); background-size: cover;">
@@ -45,11 +46,8 @@
     </div>
     
     <?php include 'botnav.php'; ?>
-    <script>
-        let h1 = document.getElementById('titel');
-        h1.innerHTML = "Kalender";
-    </script>
+    <script src="kalender.js"> </script>
+
 </body>
-<script src="kalender.js"> </script>
   
 </html>

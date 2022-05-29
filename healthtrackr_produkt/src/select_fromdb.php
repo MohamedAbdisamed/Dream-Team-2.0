@@ -2,7 +2,7 @@
     include 'mysqlconnect.php'; 
 
     
-$sql = "SELECT id, title, description, start, end FROM kalender ORDER BY start";
+$sql = "SELECT * FROM kalender ORDER BY start";
 $result = $conn->query($sql);
 //echo $result;
 $myArray = array();

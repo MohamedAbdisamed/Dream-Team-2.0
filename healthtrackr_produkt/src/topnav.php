@@ -1,19 +1,18 @@
-<!doctype html>
+<?php
+include('session.php');
+ ?>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../scss/custom.scss">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
 <body>
     <!-- Top Nav -->
-    
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
             <a href="home.php"><img src="../scss/img/nav-icons/health_trackr_logo.png" width="90"/> </a>
@@ -43,22 +42,15 @@
                                 Trænings programmer
                             </span>
                         </a>
-                    </li>
-                    <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       Info
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Info</a>
-                        <a class="dropdown-item" href="#">Instillinger</a>
-                    </div>
-                    </div>
-                    
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">Sign Out</a>
+                    </li> 
                 </ul>
             </div>
         </div>
     </nav> 
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="index.js"></script>
      
 </body>
 

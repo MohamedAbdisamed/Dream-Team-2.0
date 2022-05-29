@@ -1,5 +1,3 @@
-<?php
- ?>
 <!doctype html>
 <html lang="en">
 
@@ -24,7 +22,7 @@
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
-                    <h1 class="display-4">Hej Jytte</h1>
+                    <h1 class="display-4">Hej <span class="text-capitalize"><?php include('display_username.php') ?></span> </h1>
                 </div>
             </div>
         </div>

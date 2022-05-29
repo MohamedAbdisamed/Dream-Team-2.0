@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
          });
          
       },
-      editable:true,
+     /* editable:true,
       eventDrop:function(event){
         console.log(event.event)
         console.log(event.event._instance.range.start)
@@ -81,9 +81,9 @@ document.addEventListener('DOMContentLoaded', function () {
                // $calendar.FullCalendar('refetchEvents');
                 alert('Event slettet!');  
               }
-            });*/
+            });
         }
-      }
+      }*/
   });
   
   calendar.render();

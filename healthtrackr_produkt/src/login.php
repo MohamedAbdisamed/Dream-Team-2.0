@@ -14,7 +14,8 @@ if (isset($_POST['submit'])) {
    $count = mysqli_num_rows($result);
     
    if($count == 1) {
-     header("Location: home.php");
+      $_SESSION['login_user'] = $email;
+      header("Location: home.php");
    }else {
       echo 'error';
    }
