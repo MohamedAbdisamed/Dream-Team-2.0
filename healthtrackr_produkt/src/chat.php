@@ -12,44 +12,56 @@
 </head>
 
 <body>
-    <?php include 'topnav.php'; ?>
-    <div class="container d-flex justify-content-center">
-        <div class="card mt-5">
-            <div class="d-flex flex-row justify-content-between p-3 adiv text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="chat-overview.php">
                 <span class="material-symbols-rounded">
                     arrow_back_ios
                 </span>
-                <span class="pb-3">Live chat</span>
-                <span class="material-symbols-rounded">
-                    close
-                </span>
-            </div>
-            <div class="d-flex flex-row p-3">
-                <img src="../scss/img/profil.jpg" width="30" height="30">
-                <div class="chat ml-2 p-3">Hej jeg har problemer med at udføre en af de øvelser jeg er blevet tildelt. Jeg laver
-                    øvelsen men det gør rigtig ondt i skuldren. Har sendt en video af mig der laver øvelsen, måske kan du spotte hvad det er jeg gør forkert.</div>
-            </div>
-
-            <div class="d-flex flex-row p-3">
-                <div class="bg-white mr-2 p-3"><span class="text-muted">Hej. Ud fra videoen ser det ud til du trækker armen for langt tilbage, hvilket kan forsage smerter i skuldre, nakke og arme. Prøv at lave mindre, langsomme bevægelser hvor du ikke trækker så langt tilbage. </span></div>
-                <img src="../scss/img/fys.JPG" width="30" height="30">
-            </div>
-
-            <div class="d-flex flex-row p-3">
-                <div class="myvideo ml-2"><video src="../scss/video/træning-2.mp4" width="200"></video></div>
-                <img src="../scss/img/fys.JPG" width="30" height="30">
-            </div>
-
-            <div class="d-flex flex-row p-3">
-                <img src="../scss/img/profil.jpg" width="30" height="30">
-                <div class="chat ml-2 p-3"><span class="text-muted dot">. . .</span></div>
-            </div>
-
-            <div class="form-group px-3">
-                <textarea class="form-control" rows="5" placeholder=""></textarea>
-            </div>
+            </a>
+        </div>
+    </nav>
+    <div class="chat">
+        <div class="chat-history">
+            <ul class="m-b-0">
+                <li class="clearfix">
+                    <div class="message-data text-right">
+                        <span class="message-data-time">10:10 AM, Idag</span>
+                        <img src="../scss/img/profil.jpg" alt="avatar">
+                    </div>
+                    <div class="message other-message float-right"> Hej jeg har problemer med at udføre en af de øvelser jeg er blevet tildelt. Jeg laver
+                        øvelsen men det gør rigtig ondt i skuldren.</div>
+                </li>
+                <li class="clearfix">
+                    <div class="message-data">
+                        <img src="../scss/img/profil.jpg" alt="avatar">
+                        <span class="message-data-time">10:12 AM, Idag</span>
+                    </div>
+                    <div class="message my-message">Hej. Ud fra videoen ser det ud til du trækker armen for langt tilbage, hvilket kan forsage smerter i skuldre, nakke og arme. Prøv at lave mindre, langsomme bevægelser hvor du ikke trækker så langt tilbage. </div>
+                </li>
+                <li class="clearfix">
+                    <div class="message-data">
+                        <img src="../scss/img/profil.jpg" alt="avatar">
+                        <span class="message-data-time">10:15 AM, Idag</span>
+                    </div>
+                    <div class="message my-message"><video controls>
+                            <source src="../scss/video/træning-2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+                </li>
+            </ul>
         </div>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-bottom">
+        <div class="input-group mb-0">
+            <input type="text" class="form-control" placeholder="Skriv din besked her">
+            <div class="input-group-prepend">
+                <div class="input-group-text"><span class="material-symbols-rounded" style="color: #013c2b;">
+                        send
+                    </span></div>
+            </div>
+        </div>
+    </nav>
     <script>
         let h1 = document.getElementById('titel');
         h1.innerHTML = "Chat 1";
