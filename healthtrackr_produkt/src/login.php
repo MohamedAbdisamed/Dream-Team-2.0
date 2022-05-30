@@ -6,7 +6,7 @@ if (isset($_POST['submit'])) {
     // username and password sent from form 
    
    $email = mysqli_real_escape_string($conn,$_POST['email']);
-   $password = mysqli_real_escape_string($conn,$_POST['pass']); 
+   $password = mysqli_real_escape_string($conn,$_POST['password']); 
    
    $sql = "SELECT email, pass FROM Users WHERE email = '$email' and pass = '$password'";
    $result = mysqli_query($conn,$sql);
@@ -17,8 +17,7 @@ if (isset($_POST['submit'])) {
       $_SESSION['login_user'] = $email;
       header("Location: home.php");
    }else {
-      echo 
-      mysqli_connect_error();;
+      echo 'error';
    }
 
 }
