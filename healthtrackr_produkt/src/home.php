@@ -56,7 +56,7 @@
                                 <h5 class="card-title">Min Træning</h5>
                             </a>
                         </div>
-                        <img src="../scss/img/træning-5.jpg" class="card-img-top" alt="Billed af træning fra træningsprogram.">
+                        <img src="../scss/img/træning-5.jpg" class="card-img-top"style="object-position:50% 100%;" alt="Billed af træning fra træningsprogram.">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
