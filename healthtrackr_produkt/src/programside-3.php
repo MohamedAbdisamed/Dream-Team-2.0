@@ -14,69 +14,82 @@
 </head>
 
 <body style="background-image: url('../scss/img/bg-ly.png'); background-size: cover;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="programcat.php">
+                <span class="material-symbols-rounded">
+                    arrow_back_ios
+                </span>
+            </a>
+        </div>
+    </nav>
     <div class="container-fluid pl-0 pr-0">
-        <img src="../scss/img/træning-3.JPG" class="img-fluid pl-0 pr-0" alt="Responsive image">
+        <img src="../scss/img/træning-3.JPG" class="img-fluid w-100 pl-0 pr-0" alt="Responsive image">
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Udstræknings program 1</h1>
-            </div>
-            <div class="col-12 pt-1">
-                <p>Skuldre</p>
-            </div>
-            <div class="col-12">
-                <p>Denne øvelse hjælper til at styrke mave muskler og lindre smerter i lænd og ryg. Øvelsen er god til til folk der arbejder forane en computer, og som har tendenser til at krumme ryg. Den kan hjælpe med at forbedre kropsholdning og motorik i ryg og lænd. </p>
-            </div>
-            <div class="col-12 pt-4">
-                <a href="#" class="border rounded pt-3 pb-2 pl-2 pr-2 ">
-                    <video id="video" src="../scss/video/træning3.mp4" style="display: none;"></video>
+    <div style="background-color: #79c5b2;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Udstræknings program 1</h1>
+                </div>
+                <div class="col-12">
+                    <p>Skuldre</p>
+                </div>
+                <div class="col-12">
+                    <p>Denne øvelse hjælper til at styrke mave muskler og lindre smerter i lænd og ryg. Øvelsen er god til til folk der arbejder forane en computer, og som har tendenser til at krumme ryg. Den kan hjælpe med at forbedre kropsholdning og motorik i ryg og lænd. </p>
+                </div>
+                <div class="col-12">
+                    <video id="video" style="display: none;" controls>
+                        <source src=" ../scss/video/træning-3.mp4" type="video/mp4">
+                        Din browser understøtter ikke video tag.
+                    </video>
                     <span class="material-icons material-symbols-outlined" onclick="play()">
                         play_arrow
                     </span>
-                </a>
+                </div>
+                <div class="col-12 pt-4" style="display: flex;">
+                    <span class="material-icons material-symbols-outlined">
+                        alarm
+                    </span>
+                    <p class="train-text pl-3 pt-2">Varighed: 6 Minutter</p>
+                </div>
+                <div class="col-12 pt-4" style="display: flex;">
+                    <span class="material-icons material-symbols-outlined">
+                        fitness_center
+                    </span>
+                    <p class="train-text pl-3 pt-2">Udstyr: Yogamåtte</p>
+                </div>
             </div>
-            <div class="col-12 pt-4">
-                <span class="material-icons material-symbols-outlined">
-                    alarm
-                </span>
-                <p>Varighed: 6 Minutter</p>
-            </div>
-            <div class="col-12 pt-4">
-                <span class="material-icons material-symbols-outlined">
-                    fitness_center
-                </span>
-                <p>Udstyr: Yogamåtte</p>
-            </div>
-        </div>
-        <div class="row pt-5">
-            <div class="col-12">
-                <h5>Lignende programmmer</h5>
-            </div>
-        </div>
-        <div class="row pt-2">
-            <div class="col-3">
-                <a href="">
-                    <img class="img-fluid border rounded" src="../scss/img/træning-1.JPG" alt="">
-                </a>
-            </div>
-            <div class="col-3">
-                <a href="">
-                    <img class="img-fluid border rounded" src="../scss/img/træning-4.JPG" alt="">
-                </a>
-            </div>
-            <div class="col-3">
-                <a href="">
-                    <img class="img-fluid border rounded" src="../scss/img/træning-2.JPG" alt="">
-                </a>
-            </div>
-            <div class="col-3">
-                <a href="">
-                    <img class="img-fluid border rounded" src="../scss/img/træning-5.JPG" alt="">
-                </a>
-            </div>
+            <div class="row pt-5">
+                <div class="col-12">
+                    <h5>Lignende programmmer</h5>
+                </div>
+                <div class="row pt-2">
+                    <div class="col-3">
+                        <a href="programside-2.php">
+                            <img class="img-fluid border rounded" src="../scss/img/træning-2.JPG" alt="">
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="programside-4.php">
+                            <img class="img-fluid border rounded" src="../scss/img/træning-4.JPG" alt="">
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="programside-1.php">
+                            <img class="img-fluid border rounded" src="../scss/img/træning-1.JPG" alt="">
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="programside.php">
+                            <img class="img-fluid border rounded" src="../scss/img/træning-5.JPG" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div><br><br><br><br><br>
         </div>
     </div>
+
     <!-- Top Nav -->
     <?php include 'botnav.php'; ?>
     <script>
@@ -86,7 +99,7 @@
     <script>
         function play() {
             var video = document.getElementById("video");
-            if(video.style.display === "none") {
+            if (video.style.display === "none") {
                 video.style.display = "block";
             } else {
                 x.style.display = "none";
