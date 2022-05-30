@@ -18,7 +18,7 @@ include('session.php');
     <!-- Top Nav -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
-            <a href="home.php"><img src="../scss/img/nav-icons/health_trackr_logo.png" width="90" /> </a>
+            <a href="home.php"><img src="../scss/img/health_trackr_logo.png" width="90" /> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="material-symbols-rounded">
                     menu
                 </span>

@@ -35,7 +35,7 @@
                                     </a>
                                 </li>
                                 <li class="clearfix">
-                                    <img src="../scss/img/profil.JPG" alt="avatar">
+                                    <img src="../scss/img/profil2.JPG" alt="avatar">
                                     <div class="about">
                                         <div class="name">
                                             <p> Fysioterapeut Mohamed</p>
@@ -43,7 +43,7 @@
                                     </div>
                                 </li>
                                 <li class="clearfix">
-                                    <img src="../scss/img/profil.JPG" alt="avatar">
+                                    <img src="../scss/img/profil3.JPG" alt="avatar">
                                     <div class="about">
                                         <div class="name">
                                             <p> Fysioterapeut Sussi</p>
