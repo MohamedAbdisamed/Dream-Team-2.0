@@ -36,7 +36,7 @@ if (mysqli_query($conn, $sql)) {
     "<h3>Bruger Oprettet</h3>
     <p>Du vil blive transporteret til Login siden om lidt</p>";
 
-    header("refresh:90;url=index.php");
+    header("refresh:30;url=index.php");
 
 } else {
     echo "ERROR: Fejl, data ikke sendt. $sql. "
