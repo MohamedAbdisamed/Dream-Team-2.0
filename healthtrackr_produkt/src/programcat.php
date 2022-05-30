@@ -23,7 +23,9 @@
                 <div class="col-12 pt-2 mt-2">
                     <div class="input-group input-group-sm mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text material-icons material-symbols-outlined" id="inputGroup-sizing-sm">search</span>
+                            <span class="material-symbols-rounded">
+                                search
+                            </span>
                         </div>
                         <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                     </div>

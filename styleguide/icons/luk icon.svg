@@ -1,9 +1,0 @@
-<svg id="luk_icon" data-name="luk icon" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
-  <g id="Icons" transform="translate(12.011 11.483)">
-    <path id="_-Icon-Color" data-name="🔹-Icon-Color" d="M34.968,6.1a2.283,2.283,0,0,0-3.233,0L20.523,17.29,9.311,6.078A2.286,2.286,0,0,0,6.078,9.311L17.29,20.523,6.078,31.735a2.286,2.286,0,1,0,3.233,3.233L20.523,23.756,31.735,34.968a2.286,2.286,0,1,0,3.233-3.233L23.756,20.523,34.968,9.311a2.3,2.3,0,0,0,0-3.211Z" transform="translate(-5.408 -5.408)" fill="#013c2b" fill-rule="evenodd"/>
-  </g>
-  <g id="Ellipse_34" data-name="Ellipse 34" fill="none" stroke="#013c2b" stroke-width="4">
-    <circle cx="27" cy="27" r="27" stroke="none"/>
-    <circle cx="27" cy="27" r="25" fill="none"/>
-  </g>
-</svg>

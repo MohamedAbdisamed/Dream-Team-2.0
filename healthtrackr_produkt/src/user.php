@@ -20,7 +20,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <span class="material-symbols-rounded" style="color: green;">
+                        <span class="material-symbols-rounded" style="color: #047758;">
                             person
                         </span>
                         <h5 class="card-title">Oplysninger</h5>
@@ -30,7 +30,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <span class="material-symbols-rounded" style="color: green;">
+                        <span class="material-symbols-rounded" style="color: #047758;">
                             bar_chart
                         </span>
                         <h5 class="card-title">Data</h5>
@@ -40,7 +40,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <span class="material-symbols-rounded" style="color: green;">
+                        <span class="material-symbols-rounded" style="color: #047758;">
                             description
                         </span>
                         <h5 class="card-title">Journal</h5>
@@ -50,7 +50,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <span class="material-symbols-rounded" style="color: green;">
+                        <span class="material-symbols-rounded" style="color: #047758;">
                             settings
                         </span>
                         <h5 class="card-title">Instillinger</h5>
@@ -60,7 +60,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <span class="material-symbols-rounded" style="color: green;">
+                        <span class="material-symbols-rounded" style="color: #047758;">
                             chat_bubble
                         </span>
                         <h5 class="card-title">Beskeder</h5>
@@ -70,7 +70,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <span class="material-symbols-rounded" style="color: green;">
+                        <span class="material-symbols-rounded" style="color: #047758;">
                             calendar_today
                         </span>
                         <h5 class="card-title">Kalender</h5>

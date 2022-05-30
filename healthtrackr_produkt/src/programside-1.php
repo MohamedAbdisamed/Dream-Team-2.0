@@ -46,18 +46,18 @@
                         <source src=" ../scss/video/træning1.mp4" type="video/mp4">
                         Din browser understøtter ikke video tag.
                     </video>
-                    <span class="material-icons material-symbols-outlined" onclick="play()">
+                    <span class="material-symbols-rounded" onclick="play()">
                         play_arrow
                     </span>
                 </div>
                 <div class="col-12 pt-4" style="display: flex;">
-                    <span class="material-icons material-symbols-outlined">
-                        alarm
+                    <span class="material-symbols-rounded">
+                        timer
                     </span>
                     <p class="train-text pl-3 pt-2">Varighed: 5 Minutter</p>
                 </div>
                 <div class="col-12 pt-4" style="display: flex;">
-                    <span class="material-icons material-symbols-outlined">
+                    <span class="material-symbols-rounded">
                         fitness_center
                     </span>
                     <p class="train-text pl-3 pt-2">Udstyr: Træningsbold, Yogamåtte</p>
