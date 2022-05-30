@@ -17,7 +17,8 @@ if (isset($_POST['submit'])) {
       $_SESSION['login_user'] = $email;
       header("Location: home.php");
    }else {
-      echo 'error';
+      echo 
+      mysqli_connect_error();;
    }
 
 }
