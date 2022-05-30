@@ -18,7 +18,7 @@
     -->
     <header>
         <div class="overlay"></div>
-        <img src="../scss/img/profil.jpg" style="object-position:80% 100%;" alt="Bruger profil billed">
+        <img src="../scss/img/profil.jpg"  alt="Bruger profil billed">
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
@@ -43,7 +43,7 @@
                                 <h5 class="card-title">Min Fysioterapeut</h5>
                             </a>
                         </div>
-                        <img src="../scss/img/fys.JPG" class="card-img-top" alt="Billed af fysioterapeut med borger.">
+                        <img src="../scss/img/fys.JPG" class="card-img-top"style="object-position:80% 100%;" alt="Billed af fysioterapeut med borger.">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
