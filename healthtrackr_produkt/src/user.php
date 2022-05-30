@@ -14,7 +14,7 @@
     <!-- Top Nav -->
     <?php include 'topnav.php'; ?>
 
-    <section>
+    <section style="margin: 5vmin; margin-top: 16vmin; margin-bottom: 16vmin;">
         <!-- Indhold, Opstillet som 6 individuelle Card -->
         <div class="row row-cols-1 row-cols-md-3 g-6 m-2">
             <div class="col">

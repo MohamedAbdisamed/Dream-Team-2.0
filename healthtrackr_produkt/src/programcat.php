@@ -17,9 +17,9 @@
     <!-- Top Nav -->
     <?php include 'topnav.php'; ?>
 
-    <section>
+    <section style="margin: 5vmin; margin-top: 16vmin; margin-bottom: 16vmin;">
         <div class="container mb-3 mt-50">
-            <div class="row"> 
+            <div class="row">
                 <div class="col-12 pt-2 mt-2">
                     <div class="input-group input-group-sm mb-3">
                         <div class="input-group-prepend">
